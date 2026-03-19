@@ -1,0 +1,11 @@
+:root {
+  --color-fondo: #080808;
+  --color-fondo-cards: #101010;
+  --color-texto: #f6f6f6;
+  --color-destacado: #cfffe2;
+}
+
+body {
+  background: var(--color-fondo);
+  color: var(--color-texto);
+}
