@@ -7,51 +7,77 @@
     <link rel="stylesheet" href="css/global.css" />
   </head>
   <body>
-     <header>
-      <h1>PICKaMOVIE</h1>
-      <nav id="menu">
-        <ul>
-          <li>Inicio</li>
-          <li>Explora</li>
-          <li>Géneros</li>
-        </ul>
-      </nav>
-     </header>
-     <main>
+    <header>
+      <div class="container">
+        <logo-movie>
+          <i>
+            <svg  width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg" >
+              <path d="M2.5 0L5 5H8.75L6.25 0H8.75L11.25 5H15L12.5 0H15L17.5 5H21.25L18.75 0H22.5C23.1875 0 23.776 0.244792 24.2656 0.734375C24.7552 1.22396 25 1.8125 25 2.5V17.5C25 18.1875 24.7552 18.776 24.2656 19.2656C23.776 19.7552 23.1875 20 22.5 20H2.5C1.8125 20 1.22396 19.7552 0.734375 19.2656C0.244792 18.776 0 18.1875 0 17.5V2.5C0 1.8125 0.244792 1.22396 0.734375 0.734375C1.22396 0.244792 1.8125 0 2.5 0ZM2.5 7.5V17.5H22.5V7.5H2.5ZM2.5 7.5V17.5V7.5Z" fill="#CFFFE2" />
+            </svg>
+          </i>
+          <h1>PICKaMOVIE</h1>
+        </logo-movie>
+        <nav id="menu" class="menu">
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Selección</a></li>
+            <li><a href="">Géneros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="intro">
+        <div class="container">
+          <pick-intro class="intro">
+            <h2>Descubre Tu Próxima<br />Película <span>Favorita</span></h2>
+            <p>
+              Una selección de recomendaciones cinematográficas para todos lo gustos. Desde joyas
+              del cine independiente hasta grandes éxitos de taquilla.
+            </p>
+            <div class="explora-button">Explora</div>
+          </pick-intro>
+        </div>
+      </section>
       <section>
         <div class="container">
-          <h2>El crítico recomienda (y no es facil)</h2>
+          <h3>El crítico recomienda (y no es facil)</h3>
           <p>Resulta que hay películas que le gustan.</p>
           <div class="slider">
             <article class="card">
-              <div><img src="https://placeholder.pics/svg/320x520" alt=""></div>
+              <div class="poster">
+                <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="" />
+              </div>
               <div class="data">
                 <div>
-                  <h3>DUNE (2021)</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, illo. Dolore maiores veniam nostrum consequatur accusantium consectetur odio itaque blanditiis fuga totam, aperiam obcaecati dolorum ab beatae, iure rerum veritatis.</p>
+                  <h4 class="movie-title">DUNE (2021)</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, illo. Dolore
+                    maiores veniam nostrum consequatur accusantium consectetur odio itaque
+                    blanditiis fuga totam, aperiam obcaecati dolorum ab beatae, iure rerum
+                    veritatis.
+                  </p>
                 </div>
-                <div>
+                <div class="cast">
                   <div>
-                    <h3>Director</h3>
+                    <h5>Director</h5>
                     <p><span>Denis Villeneuve</span></p>
                   </div>
                   <div>
-                    <h3>Casting</h3>
+                    <h5>Casting</h5>
                     <p><span>Timothée Chalamet</span></p>
                   </div>
                   <div>
-                    <h3>Guión</h3>
+                    <h5>Guión</h5>
                     <p><span>Jon Sapihts</span></p>
                   </div>
                   <div>
-                    <h3>Fotografía / Música</h3>
+                    <h5>Fotografía / Música</h5>
                     <p><span>Greig Fraser / Hanz Zimmer</span></p>
                   </div>
                 </div>
                 <div>
-                  <ver-trailer>
-                    <span>Play</span><a href="#">Trailer</a>
-                  </ver-trailer>
+                  <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
                 </div>
               </div>
             </article>
@@ -61,38 +87,46 @@
 
       <section>
         <div class="container">
-          <h2>Novedades</h2>
+          <h3>Novedades</h3>
           <p>Las úlitmas novedades en cartelera.</p>
           <div class="slider">
             <article class="card">
-              <div><img src="https://placeholder.pics/svg/320x520" alt=""></div>
+              <div><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
               <div class="data">
                 <div>
-                  <h3>Marty Supreme (2025)</h3>
-                  <p>Ambientada en la década de 1950, esta película biográfica narra la vida excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa estadounidense. Conocido como 'el mago del ping pong', Reisman comenzó su carrera como un estafador de apuestas en las calles de Manhattan antes de ascender al estrellato internacional. La historia explora su estilo de juego poco ortodoxo, su carismática personalidad y su longevidad en el deporte, ganando 22 títulos importantes a lo largo de seis décadas, desde 1946 hasta 2002, convirtiéndose en el jugador de mayor edad en ganar una competición nacional abierta..</p>
+                  <h4>Marty Supreme (2025)</h4>
+                  <p>
+                    Ambientada en la década de 1950, esta película biográfica narra la vida
+                    excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
+                    estadounidense. Conocido como 'el mago del ping pong', Reisman comenzó su
+                    carrera como un estafador de apuestas en las calles de Manhattan antes de
+                    ascender al estrellato internacional. La historia explora su estilo de juego
+                    poco ortodoxo, su carismática personalidad y su longevidad en el deporte,
+                    ganando 22 títulos importantes a lo largo de seis décadas, desde 1946 hasta
+                    2002, convirtiéndose en el jugador de mayor edad en ganar una competición
+                    nacional abierta..
+                  </p>
                 </div>
                 <div>
                   <div>
-                    <h3>Director</h3>
+                    <h5>Director</h5>
                     <p><span>Josh Safdie</span></p>
                   </div>
                   <div>
-                    <h3>Casting</h3>
+                    <h5>Casting</h5>
                     <p><span>Timothée Chalamet</span></p>
                   </div>
                   <div>
-                    <h3>Guión</h3>
+                    <h5>Guión</h5>
                     <p><span>Ronald Bronstein</span></p>
                   </div>
                   <div>
-                    <h3>Fotografía / Música</h3>
+                    <h5>Fotografía / Música</h5>
                     <p><span>Darius Khondji / TBC</span></p>
                   </div>
                 </div>
                 <div>
-                  <ver-trailer>
-                    <span>Play</span><a href="#">Trailer</a>
-                  </ver-trailer>
+                  <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
                 </div>
               </div>
             </article>
@@ -102,18 +136,86 @@
 
       <section id="criterio">
         <div class="container">
-          <div>
-            <div></div>
-            <div></div>
+          <div class="criterio">
+            <div class="title">
+              <h3>Nuestro critrerio (sí, lo tenemos)</h3>
+              <p>
+                Reunimos las voces de críticos y espectadores en un mismo espacio, analizamos sus
+                opiniones con detalle y te ofrecemos la puntuación de «interés» más fiable del
+                momento.
+              </p>
+            </div>
+            <div>
+              <media-critica>
+                <h5>Puntuacion media (Críticos)<span>94%</span></h5>
+                <div class="bar-container">
+                  <div class="bar-relleno"></div>
+                </div>
+              </media-critica>
+              <media-audiencia>
+                <h5>Puntuacion media (Mortales)<span>70%</span></h5>
+                <div class="bar-container">
+                  <div class="bar-relleno"></div>
+                </div>
+              </media-audiencia>
+            </div>
           </div>
-          <div></div>
+          <div class="numeros">
+            <div>
+              <numeros-numero>12</numeros-numero>
+              <span>Películas Analizadas</span>
+            </div>
+            <div>
+              <numeros-numero>95%</numeros-numero>
+              <span>Películas Buenas</span>
+            </div>
+          </div>
         </div>
       </section>
 
       <footer>
-
+        <div class="container">
+          <div class="nosotros">
+            <logo-movie>
+            <i>
+              <svg  width="21" height="16" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                <path d="M2.5 0L5 5H8.75L6.25 0H8.75L11.25 5H15L12.5 0H15L17.5 5H21.25L18.75 0H22.5C23.1875 0 23.776 0.244792 24.2656 0.734375C24.7552 1.22396 25 1.8125 25 2.5V17.5C25 18.1875 24.7552 18.776 24.2656 19.2656C23.776 19.7552 23.1875 20 22.5 20H2.5C1.8125 20 1.22396 19.7552 0.734375 19.2656C0.244792 18.776 0 18.1875 0 17.5V2.5C0 1.8125 0.244792 1.22396 0.734375 0.734375C1.22396 0.244792 1.8125 0 2.5 0ZM2.5 7.5V17.5H22.5V7.5H2.5ZM2.5 7.5V17.5V7.5Z" fill="#CFFFE2" />
+              </svg>
+            </i>
+            <h2>PICKaMOVIE</h2>
+          </logo-movie>
+            <p>
+              Descubre tu próxima película favorita con recomendaciones personalizadas, respaldadas
+              por las opiniones más certeras de la crítica especializada.
+            </p>
+          </div>
+          <div class="menu-footer">
+            <nav id="menu-footer">
+              <h5>Explora</h5>
+              <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Seleccion</a></li>
+                <li><a href="">Géneros</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="conecta">
+            <h5>Conecta</h5>
+            <div class="social">
+              <div class="social-l">
+                <a href=""><i class="fa"></i></a>
+              </div>
+              <div class="social-l">
+                <a href=""><i class="fa"></i></a>
+              </div>
+              <div class="social-l">
+                <a href=""><i class="fa"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="copy">&copy;2026 PICKaMOVIE Entertainment. Todos los derechos reservados</p>
       </footer>
-
-     </main>
+    </main>
   </body>
 </html>

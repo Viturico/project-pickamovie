@@ -22,9 +22,6 @@
     "lint": "oxlint src/",
     "format": "oxfmt src/"
   },
-  "dependencies": {
-    "normalize.css": "8.0.1"
-  },
   "devDependencies": {
     "oxfmt": "0.41.0",
     "oxlint": "1.56.0",
