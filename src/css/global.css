@@ -1,5 +1,132 @@
 @import "josh-reset.css";
 
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-ExtraBold.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Bold.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Black.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Light.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Medium.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Regular.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "pickamovie";
+  src:
+    url("../assets/fonts/pickamovie.woff2?46768877") format("woff2"),
+    url("../assets/fonts/pickamovie.woff?46768877") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "pickamovie";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  margin-left: 0.2em;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+  content: "\e800";
+} /* '' */
+.icon-claqueta:before {
+  content: "\e801";
+} /* '' */
+.icon-l_icon:before {
+  content: "\e802";
+} /* '' */
+.icon-github-circled:before {
+  content: "\f09b";
+} /* '' */
+.icon-instagram:before {
+  content: "\f16d";
+} /* '' */
+.icon-facebook-squared:before {
+  content: "\f308";
+} /* '' */
+.icon-codepen:before {
+  content: "\f32c";
+} /* '' */
+
 :root {
   --color-fondo: #080808;
   --color-fondo-cards: #101010;
@@ -19,6 +146,7 @@
 body {
   background: var(--color-fondo);
   color: var(--color-texto);
+  font-family: "Be Vietnam Pro";
 }
 
 header {
@@ -42,15 +170,19 @@ h3 {
 }
 
 logo-movie {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 3px;
 
   i {
-    display: inline-block;
+    color: var(--color-destacado);
+    font-size: 1.5em;
   }
 
   h1,
   h2 {
     display: inline-block;
+    font-weight: 600;
   }
 }
 
@@ -158,6 +290,15 @@ section {
   align-items: center;
   gap: 20px;
 
+  h2 {
+    font-weight: 900;
+    font-size: 3.5rem;
+
+    span {
+      color: var(--color-destacado);
+    }
+  }
+
   .explora-button {
     padding: 0.8rem 3rem;
     border-radius: var(--border-radius);
@@ -258,6 +399,12 @@ footer {
 
     h2 {
       color: var(--color-texto);
+    }
+  }
+
+  logo-movie {
+    .icon-claqueta {
+      font-size: 1.2rem;
     }
   }
 }
