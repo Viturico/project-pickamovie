@@ -1,0 +1,430 @@
+@import "josh-reset.css";
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-ExtraBold.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Bold.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Black.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Light.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Medium.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-Regular.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src:
+    url("../assets/fonts/BeVietnamPro-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/BeVietnamPro-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "pickamovie";
+  src:
+    url("../assets/fonts/pickamovie.woff2?46768877") format("woff2"),
+    url("../assets/fonts/pickamovie.woff?46768877") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "pickamovie";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  margin-left: 0.2em;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+  content: "\e800";
+} /* '' */
+.icon-claqueta:before {
+  content: "\e801";
+} /* '' */
+.icon-l_icon:before {
+  content: "\e802";
+} /* '' */
+.icon-github-circled:before {
+  content: "\f09b";
+} /* '' */
+.icon-instagram:before {
+  content: "\f16d";
+} /* '' */
+.icon-facebook-squared:before {
+  content: "\f308";
+} /* '' */
+.icon-codepen:before {
+  content: "\f32c";
+} /* '' */
+
+:root {
+  --color-fondo: #080808;
+  --color-fondo-cards: #101010;
+  --color-texto: #f6f6f6;
+  --color-texto-2: #f6f6f680;
+  --color-destacado: #cfffe2;
+  --color-barra: rgb(255, 255, 255, 0.1);
+  --ancho-container: 1140px;
+  --img-intro: url("../assets/img/fondo-1.webp");
+  --deg-intro: linear-gradient(transparent 0%, #08080866 50%, var(--color-fondo) 95%);
+  --poster-width: 320px;
+  --poster-height: 520px;
+  --border-radius: 12px;
+  --border-style: solid 1px rgb(255, 255, 255, 0.1);
+}
+
+body {
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: "Be Vietnam Pro";
+}
+
+header {
+  .menu {
+    display: flex;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+
+h3 {
+  font-size: 2rem;
+  color: var(--color-destacado);
+  line-height: 1;
+}
+
+logo-movie {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
+  i {
+    color: var(--color-destacado);
+    font-size: 1.5em;
+  }
+
+  h1,
+  h2 {
+    display: inline-block;
+    font-weight: 600;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: var(--ancho-container);
+  margin: 0 auto;
+  &:has(> .menu) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &:has(> .criterio) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+  }
+  > p {
+    color: var(--color-texto-2);
+  }
+}
+
+section {
+  margin-bottom: 80px;
+  padding: 1.5rem 0;
+
+  &:has(.intro) {
+    position: relative;
+    background-image: var(--deg-intro), var(--img-intro);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+  }
+
+  &:has(.criterio) {
+    background-color: var(--color-fondo-cards);
+    font-size: 1.1rem;
+    margin-bottom: 0;
+
+    .title {
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 2.2rem;
+    }
+
+    .criterio {
+      position: relative;
+      color: var(--color-texto-2);
+    }
+
+    .numeros > div {
+      background-color: red;
+      aspect-ratio: 1 / 0.8;
+      width: 150px;
+      text-align: center;
+      border-radius: var(--border-radius);
+      background-color: var(--color-fondo);
+      padding: 1rem;
+
+      numeros-numero {
+        color: var(--color-destacado);
+        font-size: 2.5rem;
+        display: block;
+        margin-bottom: -1rem;
+      }
+
+      span {
+        font-size: 0.7rem;
+        color: var(--color-texto-2);
+      }
+
+      &:first-child {
+        margin-bottom: 2px;
+      }
+    }
+
+    media-critica {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    h5 {
+      text-transform: uppercase;
+
+      span {
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+}
+
+.intro {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  h2 {
+    font-weight: 900;
+    font-size: 3.5rem;
+
+    span {
+      color: var(--color-destacado);
+    }
+  }
+
+  .explora-button {
+    padding: 0.8rem 3rem;
+    border-radius: var(--border-radius);
+    background: var(--color-destacado);
+    color: var(--color-fondo);
+  }
+
+  * {
+    text-align: center;
+    max-width: 60%;
+  }
+}
+
+.card {
+  display: flex;
+  background-color: var(--color-fondo-cards);
+  border: var(--border-style);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  font-size: 1.1rem;
+  width: 800px;
+
+  .movie-title {
+    font-size: 30px;
+  }
+
+  .data {
+    width: calc(100% - var(--poster-width));
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .cast {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      font-size: 0.9rem;
+
+      h5 {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        color: var(--color-destacado);
+      }
+    }
+
+    ver-trailer {
+      display: inline-block;
+      padding: 0.8rem 3rem;
+      border-radius: var(--border-radius);
+      background: var(--color-destacado);
+      color: var(--color-fondo);
+    }
+  }
+  .poster {
+    width: var(--poster-width);
+    height: var(--poster-height);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.bar-container,
+.bar-relleno {
+  height: 8px;
+  border-radius: var(--border-radius);
+}
+
+.bar-container {
+  height: 8px;
+  overflow: hidden;
+  background-color: var(--color-barra);
+  border-radius: var(--border-radius);
+}
+
+.bar-relleno {
+  height: 8px;
+  width: 90%;
+  background-color: var(--color-destacado);
+  border-radius: 0;
+}
+
+footer {
+  padding: 1.5rem 0;
+  color: var(--color-texto-2);
+
+  .container {
+    border-top: solid 1px var(--color-fondo-cards);
+    border-bottom: solid 1px var(--color-fondo-cards);
+    padding: 2.5rem 0;
+    display: grid;
+    grid-template-areas: "nosotros nosotros explora conecta";
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+    h2 {
+      color: var(--color-texto);
+    }
+  }
+
+  logo-movie {
+    .icon-claqueta {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.nosotros {
+  grid-area: nosotros;
+}
+
+.menu-footer ul {
+  grid-area: explora;
+  padding: 0;
+  list-style: none;
+}
+
+.conecta {
+  gird-area: conecta;
+}
+
+.copy {
+  text-align: center;
+  margin: 1.5rem 0;
+  color: var(--color-texto-2);
+}
