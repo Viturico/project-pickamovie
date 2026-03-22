@@ -20,7 +20,8 @@
   "scripts": {
     "dev": "servor src/ index.html 1234 --reload",
     "lint": "oxlint src/",
-    "format": "oxfmt src/"
+    "format": "oxfmt src/",
+    "deploy": "gh-pages -d src/"
   },
   "devDependencies": {
     "gh-pages": "6.3.0",

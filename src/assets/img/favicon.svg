@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1157)"><rect width="1000" height="1000" fill="#080808"></rect><g transform="matrix(1.7957754382814428,0,0,1.7957754382814428,100,179.98383802105545)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" viewBox="0 0 445.49 356.41" width="445.49" height="356.41"><defs>
+    <style>
+      .st0 {
+        fill: #cfffe2;
+      }
+    </style>
+  <clipPath id="SvgjsClipPath1157"><rect width="1000" height="1000" x="0" y="0" rx="200" ry="200"></rect></clipPath></defs><path class="st0" d="M44.59.05l44.54,89.08h66.81L111.4.05h44.54l44.54,89.08h66.81L222.74.05h44.54l44.54,89.08h66.81L334.09.05h66.81c12.25,0,22.73,4.36,31.46,13.08,8.72,8.72,13.08,19.21,13.08,31.46v267.23c0,12.25-4.36,22.73-13.08,31.46-8.72,8.72-19.21,13.08-31.46,13.08H44.59c-12.25,0-22.73-4.36-31.46-13.08C4.41,334.56.05,324.07.05,311.82V44.59C.05,32.34,4.41,21.86,13.13,13.13,21.86,4.41,32.34.05,44.59.05ZM44.59,133.67v178.16h356.31v-178.16H44.59ZM44.59,133.67v178.16-178.16Z"></path></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(2.2447192978518036,0,0,2.2447192978518036,0,99.97979752631929)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Capa_1" viewBox="0 0 445.49 356.41" width="445.49" height="356.41"><defs>
+    <style>
+      .st0 {
+        fill: #cfffe2;
+      }
+    </style>
+  </defs><path class="st0" d="M44.59.05l44.54,89.08h66.81L111.4.05h44.54l44.54,89.08h66.81L222.74.05h44.54l44.54,89.08h66.81L334.09.05h66.81c12.25,0,22.73,4.36,31.46,13.08,8.72,8.72,13.08,19.21,13.08,31.46v267.23c0,12.25-4.36,22.73-13.08,31.46-8.72,8.72-19.21,13.08-31.46,13.08H44.59c-12.25,0-22.73-4.36-31.46-13.08C4.41,334.56.05,324.07.05,311.82V44.59C.05,32.34,4.41,21.86,13.13,13.13,21.86,4.41,32.34.05,44.59.05ZM44.59,133.67v178.16h356.31v-178.16H44.59ZM44.59,133.67v178.16-178.16Z"></path></svg></g></g></svg></g></svg>
