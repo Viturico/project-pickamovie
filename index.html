@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PICKaMOVIE</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/global.css" />
+
   </head>
   <body>
     <header>
@@ -34,48 +38,166 @@
           </pick-intro>
         </div>
       </section>
-      <section>
+      <section id="explora">
         <div class="container">
-          <h3>El crítico recomienda (y no es facil)</h3>
-          <p>Resulta que hay películas que le gustan.</p>
-          <div class="slider">
-            <article class="card">
-              <div class="poster">
-                <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="" />
-              </div>
-              <div class="data">
-                <div>
-                  <h4 class="movie-title">DUNE (2021)</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, illo. Dolore
-                    maiores veniam nostrum consequatur accusantium consectetur odio itaque
-                    blanditiis fuga totam, aperiam obcaecati dolorum ab beatae, iure rerum
-                    veritatis.
-                  </p>
+          <h3 id="explora-title">El crítico recomienda (y no es fácil)</h3>
+          <p class="subtitle">Resulta que hay películas que le gustan.</p>
+        </div>
+        <div class="container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <article class="swiper-slide card">
+                <div class="poster">
+                  <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="" />
                 </div>
-                <div class="cast">
+                <div class="data">
                   <div>
-                    <h5>Director</h5>
-                    <p><span>Denis Villeneuve</span></p>
+                    <h4 class="movie-title">DUNE (2021)</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, illo. Dolore
+                      maiores veniam nostrum consequatur accusantium consectetur.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Denis Villeneuve</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p>Timothée Chalamet, Timothée Chalamet, Timothée Chalamet, Timothée Chalamet</p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Jon Sapihts</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Greig Fraser / Hanz Zimmer</span></p>
+                    </div>
                   </div>
                   <div>
-                    <h5>Casting</h5>
-                    <p><span>Timothée Chalamet</span></p>
-                  </div>
-                  <div>
-                    <h5>Guión</h5>
-                    <p><span>Jon Sapihts</span></p>
-                  </div>
-                  <div>
-                    <h5>Fotografía / Música</h5>
-                    <p><span>Greig Fraser / Hanz Zimmer</span></p>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
                   </div>
                 </div>
-                <div>
-                  <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+              </article>
+              <article class="swiper-slide card">
+                <div class="poster">
+                  <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="" />
                 </div>
-              </div>
-            </article>
+                <div class="data">
+                  <div>
+                    <h4 class="movie-title">DUNE (2021)</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, illo. Dolore
+                      maiores veniam nostrum consequatur accusantium consectetur.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Denis Villeneuve</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p>Timothée Chalamet, Timothée Chalamet, Timothée Chalamet, Timothée Chalamet</p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Jon Sapihts</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Greig Fraser / Hanz Zimmer</span></p>
+                    </div>
+                  </div>
+                  <div>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+                  </div>
+                </div>
+              </article>
+              <article class="swiper-slide card">
+                <div class="poster">
+                  <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="" />
+                </div>
+                <div class="data">
+                  <div>
+                    <h4 class="movie-title">DUNE (2021)</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, illo. Dolore
+                      maiores veniam nostrum consequatur accusantium consectetur.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Denis Villeneuve</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p>Timothée Chalamet, Timothée Chalamet, Timothée Chalamet, Timothée Chalamet</p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Jon Sapihts</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Greig Fraser / Hanz Zimmer</span></p>
+                    </div>
+                  </div>
+                  <div>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+                  </div>
+                </div>
+              </article>
+              <article class="swiper-slide card">
+                <div class="poster">
+                  <img src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="" />
+                </div>
+                <div class="data">
+                  <div>
+                    <h4 class="movie-title">DUNE (2021)</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, illo. Dolore
+                      maiores veniam nostrum consequatur accusantium consectetur.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Denis Villeneuve</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p>Timothée Chalamet, Timothée Chalamet, Timothée Chalamet, Timothée Chalamet</p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Jon Sapihts</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Greig Fraser / Hanz Zimmer</span></p>
+                    </div>
+                  </div>
+                  <div>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.383 0.2796 10.35 20">
+                <path d="M.383 20.0762c.2712.2712.7108.2712.982 0l9.0691-9.0692c.4018-.4017.4018-1.0531 0-1.4549L1.365.483C1.0938.2118.6541.2118.383.483Z" fill="#cfffe2"/>
+              </svg>
+            </div>
+            <div class="swiper-button-prev">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10.7355 -20.2796 10.35 20">
+                <path d="M-.383-20.0762c-.2712-.2712-.7108-.2712-.982 0l-9.0691 9.0692c-.4018.4017-.4018 1.0531 0 1.4549L-1.365-.483C-1.0938-.2118-.6541-.2118-.383-.483Z" fill="#cfffe2"/>
+              </svg>
+            </div>
           </div>
         </div>
       </section>
@@ -83,48 +205,193 @@
       <section>
         <div class="container">
           <h3>Novedades</h3>
-          <p>Las úlitmas novedades en cartelera.</p>
-          <div class="slider">
-            <article class="card">
-              <div><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
-              <div class="data">
-                <div>
-                  <h4>Marty Supreme (2025)</h4>
-                  <p>
-                    Ambientada en la década de 1950, esta película biográfica narra la vida
-                    excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
-                    estadounidense. Conocido como 'el mago del ping pong', Reisman comenzó su
-                    carrera como un estafador de apuestas en las calles de Manhattan antes de
-                    ascender al estrellato internacional. La historia explora su estilo de juego
-                    poco ortodoxo, su carismática personalidad y su longevidad en el deporte,
-                    ganando 22 títulos importantes a lo largo de seis décadas, desde 1946 hasta
-                    2002, convirtiéndose en el jugador de mayor edad en ganar una competición
-                    nacional abierta..
-                  </p>
+          <p class="subtitle">Las úlitmas novedades en cartelera.</p>
+        </div>
+        <div class="container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <article class="swiper-slide card">
+                <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
+                <div class="data">
+                  <div>
+                    <h4>Marty Supreme (2025)</h4>
+                    <p>
+                      Ambientada en la década de 1950, esta película biográfica narra la vida
+                      excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
+                      estadounidense.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Josh Safdie</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p><span>Timothée Chalamet</span></p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Ronald Bronstein</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Darius Khondji / TBC</span></p>
+                    </div>
+                  </div>
+                  <div>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+                  </div>
                 </div>
-                <div>
+              </article>
+              <article class="swiper-slide card">
+                <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
+                <div class="data">
                   <div>
-                    <h5>Director</h5>
-                    <p><span>Josh Safdie</span></p>
+                    <h4>Marty Supreme (2025)</h4>
+                    <p>
+                      Ambientada en la década de 1950, esta película biográfica narra la vida
+                      excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
+                      estadounidense.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Josh Safdie</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p><span>Timothée Chalamet</span></p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Ronald Bronstein</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Darius Khondji / TBC</span></p>
+                    </div>
                   </div>
                   <div>
-                    <h5>Casting</h5>
-                    <p><span>Timothée Chalamet</span></p>
-                  </div>
-                  <div>
-                    <h5>Guión</h5>
-                    <p><span>Ronald Bronstein</span></p>
-                  </div>
-                  <div>
-                    <h5>Fotografía / Música</h5>
-                    <p><span>Darius Khondji / TBC</span></p>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
                   </div>
                 </div>
-                <div>
-                  <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+              </article>
+              <article class="swiper-slide card">
+                <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
+                <div class="data">
+                  <div>
+                    <h4>Marty Supreme (2025)</h4>
+                    <p>
+                      Ambientada en la década de 1950, esta película biográfica narra la vida
+                      excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
+                      estadounidense.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Josh Safdie</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p><span>Timothée Chalamet</span></p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Ronald Bronstein</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Darius Khondji / TBC</span></p>
+                    </div>
+                  </div>
+                  <div>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+              <article class="swiper-slide card">
+                <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
+                <div class="data">
+                  <div>
+                    <h4>Marty Supreme (2025)</h4>
+                    <p>
+                      Ambientada en la década de 1950, esta película biográfica narra la vida
+                      excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
+                      estadounidense.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Josh Safdie</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p><span>Timothée Chalamet</span></p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Ronald Bronstein</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Darius Khondji / TBC</span></p>
+                    </div>
+                  </div>
+                  <div>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+                  </div>
+                </div>
+              </article>
+              <article class="swiper-slide card">
+                <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
+                <div class="data">
+                  <div>
+                    <h4>Marty Supreme (2025)</h4>
+                    <p>
+                      Ambientada en la década de 1950, esta película biográfica narra la vida
+                      excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
+                      estadounidense.
+                    </p>
+                  </div>
+                  <div class="cast">
+                    <div>
+                      <h5>Director</h5>
+                      <p><span>Josh Safdie</span></p>
+                    </div>
+                    <div>
+                      <h5>Casting</h5>
+                      <p><span>Timothée Chalamet</span></p>
+                    </div>
+                    <div>
+                      <h5>Guión</h5>
+                      <p><span>Ronald Bronstein</span></p>
+                    </div>
+                    <div>
+                      <h5>Fotografía / Música</h5>
+                      <p><span>Darius Khondji / TBC</span></p>
+                    </div>
+                  </div>
+                  <div>
+                    <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.383 0.2796 10.35 20">
+                <path d="M.383 20.0762c.2712.2712.7108.2712.982 0l9.0691-9.0692c.4018-.4017.4018-1.0531 0-1.4549L1.365.483C1.0938.2118.6541.2118.383.483Z" fill="#cfffe2"/>
+              </svg>
+            </div>
+            <div class="swiper-button-prev">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10.7355 -20.2796 10.35 20">
+                <path d="M-.383-20.0762c-.2712-.2712-.7108-.2712-.982 0l-9.0691 9.0692c-.4018.4017-.4018 1.0531 0 1.4549L-1.365-.483C-1.0938-.2118-.6541-.2118-.383-.483Z" fill="#cfffe2"/>
+              </svg>
+            </div>
           </div>
         </div>
       </section>
@@ -193,20 +460,17 @@
           <div class="conecta">
             <h5>Conecta</h5>
             <div class="social">
-              <div class="social-l">
-                <a href=""><i class="fa"></i></a>
-              </div>
-              <div class="social-l">
-                <a href=""><i class="fa"></i></a>
-              </div>
-              <div class="social-l">
-                <a href=""><i class="fa"></i></a>
-              </div>
+              <a href="#"><i class="icon-instagram"></i></a>
+              <a href="#"><i class="icon-github-circled"></i></a>
+              <a href="#"><i class="icon-mail"></i></a>
             </div>
           </div>
         </div>
-        <p class="copy">&copy;2026 PICKaMOVIE Entertainment. Todos los derechos reservados</p>
+        <p class="copy">&copy;2026 PICKaMOVIE Entertainment es una marca Literal WD. Todos los derechos reservados<br/><i class="icon-claqueta"></i> <i class="icon-plus"></i><i class="icon-l-icon"></i></p>
+
       </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
