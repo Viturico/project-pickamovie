@@ -1,0 +1,29 @@
+<!ENTITY acc "Acción">
+<!ENTITY com "Comedia">
+<!ENTITY drm "Drama">
+<!ENTITY ter "Terror">
+<!ENTITY sfi "Ciencia Ficción">
+<!ENTITY rom "Romance">
+<!ENTITY ani "Animación">
+<!ENTITY thr "Suspense">
+<!ENTITY doc "Documental">
+<!ENTITY mus "Musical">
+<!ENTITY bel "Bélica">
+
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (title, year, director+, summary, actor+, script+, photo*, music*, genre+, duration, ytId, rating)>
+
+<!ATTLIST movie poster CDATA #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT script (#PCDATA)>
+<!ELEMENT photo (#PCDATA)>
+<!ELEMENT music (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT ytId (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>

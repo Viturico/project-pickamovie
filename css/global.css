@@ -370,6 +370,7 @@ section {
   overflow: hidden;
   font-size: 1.1rem;
   width: 800px;
+  height: auto;
 
   .movie-title {
     font-size: 1.875rem;
@@ -409,6 +410,7 @@ section {
       border-radius: var(--border-radius);
       background: var(--color-destacado);
       color: var(--color-fondo);
+      cursor: pointer;
     }
   }
   .poster {
@@ -437,6 +439,8 @@ section {
 
 .swiper-wrapper {
   margin-top: 1.5rem;
+  height: auto;
+  align-items: stretch;
 }
 
 .bar-container,
@@ -533,18 +537,6 @@ footer {
   display: flex;
   gap: 10px;
 
-  /* i {
-    display: inline-block;
-    line-height: 2.09;
-    background-color: var(--color-barra);
-    height: 2.5rem;
-    width: 2.5rem;
-    aspect-ratio: 1;
-    text-align: center;
-    font-size: 1.2rem;
-    border-radius: 100%;
-  } */
-
     i {
       display: inline-flex;
       font-size: 1.2rem;
@@ -567,4 +559,97 @@ footer {
       margin-left: .25em;
     }
   }
+}
+
+#video {
+    width: 0;
+    height: 0;
+}
+
+
+
+.video-expandido {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: var(--color-fondo);
+  /* Quitamos márgenes por si acaso */
+  margin: 0;
+  padding: 0;
+
+  #video {
+    width: 100%;
+    height: 100%;
+  }
+
+  #close {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    color:var(--color-destacado);
+    font-size: 2em;
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  #avanzar {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    color:var(--color-destacado);
+    font-size: 2em;
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  #retroceder {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+    color:var(--color-destacado);
+    font-size: 2em;
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  iframe#video {
+    pointer-events: none;
+    height: 130vh;
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #mi-linea-tiempo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 20;
+  }
+
+  #mi-progreso {
+    width: 0%;
+    height: 100%;
+    background-image: linear-gradient(124deg, var(--color-destacado-20) 0%, var(--color-destacado) 70%);;
+    transition: width 0.1s linear;
+  }
+}
+
+#close, #avanzar, #retroceder {
+    display: none;
+    border-radius: 10px;
 }
