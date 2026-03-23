@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pickamovie.xslt" type="text/xsl"?>
+<!DOCTYPE movies SYSTEM "pickamovie.dtd">
+<movies>
+    <movie poster="https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg">
+        <title>Blade Runner</title>
+        <year>1982</year>
+        <director>Ridley Scott</director>
+        <summary>2019. Los Replicantes, robots casi humanos creados por la corporación Tyrell, han sido desterrados de la Tierra tras una rebelión. El ex Blade Runner Rick Deckard es llamado de nuevo al servicio para encontrar y "retirar" a un grupo de replicantes rebeldes.</summary>
+        <actor>Harrison Ford</actor>
+        <actor>Sean Young</actor>
+        <actor>Rutger Hauer</actor>
+        <script>David Webb Peoples</script>
+        <script>Hampton Fancher</script>
+        <photo>Jordan Cronenweth</photo>
+        <music>Vangelis</music>
+        <genre>&sfi;</genre>
+        <genre>&acc;</genre>
+        <duration>117</duration>
+        <ytId>qoEyZoOTtss</ytId>
+        <rating>8</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg">
+        <title>Marty Supreme</title>
+        <year>2025</year>
+        <director>Josh Safdie</director>
+        <summary>En los años 50, Marty Reisman, leyenda del tenis de mesa estadounidense, pasa de ser un estafador de apuestas en Manhattan a estrella internacional, acumulando 22 títulos en seis décadas.</summary>
+        <actor>Timothée Chalamet</actor>
+        <actor>Gwyneth Paltrow</actor>
+        <actor>Tyler, the Creator</actor>
+        <script>Josh Safdie</script>
+        <script>Ronald Bronstein</script>
+        <photo>Darius Khondji</photo>
+        <music>TBC</music>
+        <genre>&drm;</genre>
+        <duration>120</duration>
+        <ytId>s9gSuKaKcqM</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg">
+        <title>Dune: Parte Dos</title>
+        <year>2024</year>
+        <director>Denis Villeneuve</director>
+        <summary>Paul Atreides se une a los Fremen en un viaje de venganza contra quienes destruyeron a su familia. Mientras asciende como el profetizado Muad'Dib, debe equilibrar su amor por Chani con un destino que podría desatar una Guerra Santa a través del universo.</summary>
+        <actor>Timothée Chalamet</actor>
+        <actor>Zendaya</actor>
+        <actor>Rebecca Ferguson</actor>
+        <script>Denis Villeneuve</script>
+        <script>Jon Spaihts</script>
+        <photo>Greig Fraser</photo>
+        <music>Hans Zimmer</music>
+        <genre>&sfi;</genre>
+        <genre>&acc;</genre>
+        <duration>166</duration>
+        <ytId>U2Qp5pL3ovA</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg">
+        <title>Civil War</title>
+        <year>2024</year>
+        <director>Alex Garland</director>
+        <summary>En un futuro distópico, Estados Unidos vive una Segunda Guerra Civil. Un equipo de periodistas emprende un peligroso viaje por carretera hacia Washington D.C. para documentar el conflicto antes de que las fuerzas rebeldes tomen la Casa Blanca.</summary>
+        <actor>Kirsten Dunst</actor>
+        <actor>Wagner Moura</actor>
+        <script>Alex Garland</script>
+        <photo>Rob Hardy</photo>
+        <music>Ben Salisbury</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>109</duration>
+        <ytId>aDyQxtg0V2w</ytId>
+        <rating>7.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg">
+        <title>El Padrino</title>
+        <year>1972</year>
+        <director>Francis Ford Coppola</director>
+        <summary>Vito Corleone lidera una de las familias más poderosas del crimen organizado en Nueva York. Tras un intento de asesinato, su hijo Michael, que había intentado mantenerse al margen, se ve arrastrado al mundo de la mafia y comienza una transformación imparable.</summary>
+        <actor>Marlon Brando</actor>
+        <actor>Al Pacino</actor>
+        <script>Mario Puzo</script>
+        <script>Francis Ford Coppola</script>
+        <photo>Gordon Willis</photo>
+        <music>Nino Rota</music>
+        <genre>&drm;</genre>
+        <genre>&thr;</genre>
+        <duration>175</duration>
+        <ytId>sY1S34973zA</ytId>
+        <rating>9.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg">
+        <title>Pulp Fiction</title>
+        <year>1994</year>
+        <director>Quentin Tarantino</director>
+        <summary>Las vidas de dos asesinos a sueldo, un boxeador, la esposa de un gángster y una pareja de atracadores se entrelazan en cuatro historias de violencia y redención en los bajos fondos de Los Ángeles, narradas con estructura temporal fracturada.</summary>
+        <actor>John Travolta</actor>
+        <actor>Samuel L. Jackson</actor>
+        <actor>Uma Thurman</actor>
+        <script>Quentin Tarantino</script>
+        <photo>Andrzej Sekula</photo>
+        <music>Varios</music>
+        <genre>&thr;</genre>
+        <genre>&acc;</genre>
+        <duration>153</duration>
+        <ytId>yMXB9u4z8Ic</ytId>
+        <rating>8.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg">
+        <title>El viaje de Chihiro</title>
+        <year>2001</year>
+        <director>Hayao Miyazaki</director>
+        <summary>Chihiro, una niña de diez años, queda atrapada en un mundo de dioses y espíritus donde sus padres son convertidos en cerdos. Para salvarlos, deberá trabajar en una casa de baños termales bajo las órdenes de la bruja Yubaba y recuperar su nombre.</summary>
+        <actor>Rumi Hiiragi</actor>
+        <actor>Miyu Irino</actor>
+        <script>Hayao Miyazaki</script>
+        <photo>Atsushi Okui</photo>
+        <music>Joe Hisaishi</music>
+        <genre>&ani;</genre>
+        <genre>&sfi;</genre>
+        <duration>124</duration>
+        <ytId>ByXuk9QqQkk</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg">
+        <title>Parásitos</title>
+        <year>2019</year>
+        <director>Bong Joon-ho</director>
+        <summary>La familia Kim, desempleada y paupérrima, se infiltra poco a poco en la mansión de la adinerada familia Park haciéndose pasar por profesionales independientes. Su estafa perfecta se desmorona cuando descubren un oscuro secreto escondido en la casa.</summary>
+        <actor>Song Kang-ho</actor>
+        <actor>Lee Sun-kyun</actor>
+        <script>Bong Joon-ho</script>
+        <photo>Hong Kyung-pyo</photo>
+        <music>Jung Jae-il</music>
+        <genre>&thr;</genre>
+        <genre>&drm;</genre>
+        <duration>132</duration>
+        <ytId>5xH0HfJHsaY</ytId>
+        <rating>9.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg">
+        <title>La lista de Schindler</title>
+        <year>1993</year>
+        <director>Steven Spielberg</director>
+        <summary>Oskar Schindler, empresario alemán y miembro del partido nazi, llega a Cracovia para hacer fortuna con mano de obra judía. Al presenciar los horrores del Holocausto, su conciencia despierta y arriesga su fortuna y su vida para salvar a más de mil judíos.</summary>
+        <actor>Liam Neeson</actor>
+        <actor>Ben Kingsley</actor>
+        <script>Steven Zaillian</script>
+        <photo>Janusz Kaminski</photo>
+        <music>John Williams</music>
+        <genre>&drm;</genre>
+        <duration>195</duration>
+        <ytId>gG22XNhtnoY</ytId>
+        <rating>8.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg">
+        <title>El Caballero Oscuro</title>
+        <year>2008</year>
+        <director>Christopher Nolan</director>
+        <summary>La paz de Gotham se ve amenazada por el Joker, un criminal sádico cuyo objetivo es sumir la ciudad en la anarquía. Batman deberá tomar decisiones imposibles mientras el Joker empuja a Harvey Dent, el Caballero Blanco de Gotham, hacia la locura.</summary>
+        <actor>Christian Bale</actor>
+        <actor>Heath Ledger</actor>
+        <script>Jonathan Nolan</script>
+        <script>Christopher Nolan</script>
+        <photo>Wally Pfister</photo>
+        <music>Hans Zimmer</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>152</duration>
+        <ytId>EXeTwQWrcwY</ytId>
+        <rating>8.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg">
+        <title>Cadena Perpetua</title>
+        <year>1994</year>
+        <director>Frank Darabont</director>
+        <summary>Andy Dufresne, banquero condenado injustamente a cadena perpetua, utiliza su inteligencia para ganarse el favor de los guardias y el alcaide en la prisión de Shawshank. Mientras mantiene viva la esperanza, trama en secreto un plan para recuperar su libertad.</summary>
+        <actor>Tim Robbins</actor>
+        <actor>Morgan Freeman</actor>
+        <script>Frank Darabont</script>
+        <photo>Roger Deakins</photo>
+        <music>Thomas Newman</music>
+        <genre>&drm;</genre>
+        <duration>142</duration>
+        <ytId>6hB3S9bIaco</ytId>
+        <rating>9.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg">
+        <title>Psicosis</title>
+        <year>1960</year>
+        <director>Alfred Hitchcock</director>
+        <summary>Marion Crane, una secretaria que huye tras robar 40.000 dólares, para la noche en el Motel Bates. Su misteriosa desaparición lleva a un detective y a su hermana a investigar, descubriendo la aterradora verdad que esconden Norman Bates y su madre.</summary>
+        <actor>Anthony Perkins</actor>
+        <actor>Janet Leigh</actor>
+        <script>Joseph Stefano</script>
+        <photo>John L. Russell</photo>
+        <music>Bernard Herrmann</music>
+        <genre>&ter;</genre>
+        <genre>&thr;</genre>
+        <duration>109</duration>
+        <ytId>NG3-GlvKPcg</ytId>
+        <rating>8.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg">
+        <title>La La Land</title>
+        <year>2016</year>
+        <director>Damien Chazelle</director>
+        <summary>Mia, actriz en ciernes, y Sebastian, músico de jazz purista, se enamoran en Los Ángeles mientras luchan por sus sueños. Cuando el éxito llega, deben elegir entre el amor y la ambición artística.</summary>
+        <actor>Ryan Gosling</actor>
+        <actor>Emma Stone</actor>
+        <script>Damien Chazelle</script>
+        <photo>Linus Sandgren</photo>
+        <music>Justin Hurwitz</music>
+        <genre>&rom;</genre>
+        <genre>&mus;</genre>
+        <duration>127</duration>
+        <ytId>0pdqf4P9MB8</ytId>
+        <rating>7.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg">
+        <title>Interstellar</title>
+        <year>2014</year>
+        <director>Christopher Nolan</director>
+        <summary>Con la Tierra al borde de la extinción, el ex piloto Cooper lidera una misión a través de un agujero de gusano para encontrar planetas habitables en otra galaxia, dejando atrás a sus hijos y enfrentándose a la relatividad del tiempo.</summary>
+        <actor>Matthew McConaughey</actor>
+        <actor>Anne Hathaway</actor>
+        <script>Jonathan Nolan</script>
+        <photo>Hoyte van Hoytema</photo>
+        <music>Hans Zimmer</music>
+        <genre>&sfi;</genre>
+        <genre>&drm;</genre>
+        <duration>169</duration>
+        <ytId>zSWdZVtXT7E</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg">
+        <title>12 Hombres sin piedad</title>
+        <year>1957</year>
+        <director>Sidney Lumet</director>
+        <summary>Doce jurados deliberan sobre la culpabilidad de un joven acusado de matar a su padre. La votación inicial es de 11 a 1, pero el jurado número 8 obliga a los demás a reexaminar las pruebas, exponiendo prejuicios y la fragilidad del sistema judicial.</summary>
+        <actor>Henry Fonda</actor>
+        <actor>Lee J. Cobb</actor>
+        <script>Reginald Rose</script>
+        <photo>Boris Kaufman</photo>
+        <music>Kenyon Hopkins</music>
+        <genre>&drm;</genre>
+        <duration>95</duration>
+        <ytId>A7CBKT0PWFA</ytId>
+        <rating>8.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg">
+        <title>Seven</title>
+        <year>1995</year>
+        <director>David Fincher</director>
+        <summary>Los detectives Somerset y Mills persiguen a un asesino en serie que escenifica crímenes basados en los siete pecados capitales. Cuando se acercan a él, descubren que son peones en un juego retorcido con un final devastador.</summary>
+        <actor>Brad Pitt</actor>
+        <actor>Morgan Freeman</actor>
+        <script>Andrew Kevin Walker</script>
+        <photo>Darius Khondji</photo>
+        <music>Howard Shore</music>
+        <genre>&thr;</genre>
+        <duration>127</duration>
+        <ytId>znmZoVkCjpI</ytId>
+        <rating>8.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg">
+        <title>Oppenheimer</title>
+        <year>2023</year>
+        <director>Christopher Nolan</director>
+        <summary>Biopic épico sobre J. Robert Oppenheimer, el físico que dirigió el Proyecto Manhattan para desarrollar la primera bomba atómica. La película explora su conflicto moral al convertirse en el padre de un arma que cambiaría el mundo para siempre.</summary>
+        <actor>Cillian Murphy</actor>
+        <actor>Robert Downey Jr.</actor>
+        <actor>Emily Blunt</actor>
+        <script>Christopher Nolan</script>
+        <photo>Hoyte van Hoytema</photo>
+        <music>Ludwig Göransson</music>
+        <genre>&drm;</genre>
+        <genre>&thr;</genre>
+        <duration>180</duration>
+        <ytId>uYPbbksJxIg</ytId>
+        <rating>7.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg">
+        <title>Ciudad de Dios</title>
+        <year>2002</year>
+        <director>Fernando Meirelles</director>
+        <summary>Buscapé narra la evolución del violento suburbio de Río de Janeiro desde los años 60 hasta los 80. Su camino inocente como fotógrafo contrasta con el ascenso de Dadinho, que se convertirá en el capo de la droga más temido de la favela.</summary>
+        <actor>Alexandre Rodrigues</actor>
+        <actor>Leandro Firmino</actor>
+        <script>Bráulio Mantovani</script>
+        <photo>César Charlone</photo>
+        <music>Antonio Pinto</music>
+        <genre>&drm;</genre>
+        <genre>&acc;</genre>
+        <duration>130</duration>
+        <ytId>dcUOO4Itgmw</ytId>
+        <rating>8.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg">
+        <title>El Señor de los Anillos: El Retorno del Rey</title>
+        <year>2003</year>
+        <director>Peter Jackson</director>
+        <summary>Las fuerzas de Sauron asedian Minas Tirith mientras Frodo y Sam avanzan hacia el Monte del Destino para destruir el Anillo Único. Aragorn debe aceptar su destino como rey para liderar a los ejércitos de la Tierra Media en la batalla final.</summary>
+        <actor>Elijah Wood</actor>
+        <actor>Viggo Mortensen</actor>
+        <script>Fran Walsh</script>
+        <script>Philippa Boyens</script>
+        <photo>Andrew Lesnie</photo>
+        <music>Howard Shore</music>
+        <genre>&acc;</genre>
+        <genre>&sfi;</genre>
+        <duration>201</duration>
+        <ytId>r5X-hFf6Bwo</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/mfnkSeeVOBVheuyn2lo4tfmOPQb.jpg">
+        <title>La vida es bella</title>
+        <year>1997</year>
+        <director>Roberto Benigni</director>
+        <summary>Guido, un judío italiano deportado a un campo de concentración junto a su familia, convence a su hijo pequeño de que el horror que los rodea es en realidad un elaborado juego, usando el humor como escudo para proteger su inocencia.</summary>
+        <actor>Roberto Benigni</actor>
+        <actor>Nicoletta Braschi</actor>
+        <script>Vincenzo Cerami</script>
+        <photo>Tonino Delli Colli</photo>
+        <music>Nicola Piovani</music>
+        <genre>&com;</genre>
+        <genre>&drm;</genre>
+        <duration>117</duration>
+        <ytId>pAYEQP8gx3w</ytId>
+        <rating>8.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/p96dm7sCMn4VYAStA6siNz30G1r.jpg">
+        <title>Matrix</title>
+        <year>1999</year>
+        <director>Lana Wachowski</director>
+        <summary>El hacker Neo descubre que la realidad es una simulación creada por máquinas para esclavizar a la humanidad. Reclutado por el legendario Morfeo, debe aceptar su destino como El Elegido y liderar la rebelión humana.</summary>
+        <actor>Keanu Reeves</actor>
+        <actor>Laurence Fishburne</actor>
+        <actor>Carrie-Anne Moss</actor>
+        <script>Lana Wachowski</script>
+        <script>Lilly Wachowski</script>
+        <photo>Bill Pope</photo>
+        <music>Don Davis</music>
+        <genre>&sfi;</genre>
+        <genre>&acc;</genre>
+        <duration>131</duration>
+        <ytId>m8e-FF8MsqU</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg">
+        <title>El club de la lucha</title>
+        <year>1999</year>
+        <director>David Fincher</director>
+        <summary>Un insomne desilusionado y el carismático Tyler Durden fundan un club de lucha clandestino como terapia radical. Lo que empieza como peleas en sótanos evoluciona hacia el Proyecto Mayhem, una organización anarquista con planes para derribar la civilización corporativa.</summary>
+        <actor>Brad Pitt</actor>
+        <actor>Edward Norton</actor>
+        <script>Jim Uhls</script>
+        <photo>Jeff Cronenweth</photo>
+        <music>The Dust Brothers</music>
+        <genre>&thr;</genre>
+        <genre>&drm;</genre>
+        <duration>139</duration>
+        <ytId>BdJKm16Co6M</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg">
+        <title>Forrest Gump</title>
+        <year>1994</year>
+        <director>Robert Zemeckis</director>
+        <summary>Forrest Gump, un hombre de corazón de oro y bajo coeficiente intelectual, se convierte por casualidad en testigo y protagonista de los momentos más importantes de la historia de EE. UU. del siglo XX, mientras persigue su amor por Jenny.</summary>
+        <actor>Tom Hanks</actor>
+        <actor>Robin Wright</actor>
+        <script>Eric Roth</script>
+        <photo>Don Burgess</photo>
+        <music>Alan Silvestri</music>
+        <genre>&drm;</genre>
+        <genre>&com;</genre>
+        <duration>142</duration>
+        <ytId>bLvqoHBptjg</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg">
+        <title>Salvar al soldado Ryan</title>
+        <year>1998</year>
+        <director>Steven Spielberg</director>
+        <summary>Tras el desembarco en Normandía, el Capitán Miller y ocho soldados reciben la misión de adentrarse en territorio nazi para encontrar al soldado James Ryan, cuyo hermanos han muerto en combate, y traerlo de vuelta con vida.</summary>
+        <actor>Tom Hanks</actor>
+        <actor>Matt Damon</actor>
+        <script>Robert Rodat</script>
+        <photo>Janusz Kaminski</photo>
+        <music>John Williams</music>
+        <genre>&bel;</genre>
+        <genre>&acc;</genre>
+        <duration>170</duration>
+        <ytId>9CiW_DgxCnQ</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg">
+        <title>Gladiator</title>
+        <year>2000</year>
+        <director>Ridley Scott</director>
+        <summary>El general romano Máximo es traicionado por Cómodo, el hijo del Emperador, que ordena su ejecución y la de su familia. Convertido en gladiador, Máximo asciende hasta el Coliseo de Roma en busca de venganza contra el nuevo Emperador.</summary>
+        <actor>Russell Crowe</actor>
+        <actor>Joaquin Phoenix</actor>
+        <script>David Franzoni</script>
+        <photo>John Mathieson</photo>
+        <music>Hans Zimmer</music>
+        <genre>&acc;</genre>
+        <genre>&drm;</genre>
+        <duration>150</duration>
+        <ytId>owK1qxDselE</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg">
+        <title>Alien, el octavo pasajero</title>
+        <year>1979</year>
+        <director>Ridley Scott</director>
+        <summary>La tripulación de la nave Nostromo investiga una señal de socorro en una luna cercana. Al subir a bordo a un tripulante atacado por una criatura alienígena, desatan un depredador perfecto que comienza a cazarlos uno por uno.</summary>
+        <actor>Sigourney Weaver</actor>
+        <actor>John Hurt</actor>
+        <script>Dan O'Bannon</script>
+        <photo>Derek Vanlint</photo>
+        <music>Jerry Goldsmith</music>
+        <genre>&sfi;</genre>
+        <genre>&ter;</genre>
+        <duration>116</duration>
+        <ytId>jQ5lPt9edzQ</ytId>
+        <rating>8.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/pvnPgukFyEKgCzyOxyLiwyZ8T1C.jpg">
+        <title>Catwoman</title>
+        <year>2004</year>
+        <director>Pitof</director>
+        <summary>Patience Phillips, diseñadora gráfica, es asesinada tras descubrir un secreto oscuro sobre los cosméticos de su empresa. Resucitada por un gato misterioso y dotada de habilidades felinas, se convierte en Catwoman para vengarse de sus asesinos.</summary>
+        <actor>Halle Berry</actor>
+        <actor>Benjamin Bratt</actor>
+        <actor>Sharon Stone</actor>
+        <script>John Rogers</script>
+        <script>John Brancato</script>
+        <photo>Thierry Arbogast</photo>
+        <music>Klaus Badelt</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>104</duration>
+        <ytId>vFSLz4elnTE</ytId>
+        <rating>3.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/9QscHN4pXj6Ja1k7e1ZT4vWDGnr.jpg">
+        <title>The Room</title>
+        <year>2003</year>
+        <director>Tommy Wiseau</director>
+        <summary>Johnny, un banquero bondadoso, vive feliz con su prometida Lisa. Su mundo se derrumba cuando descubre que Lisa le engaña con su mejor amigo Mark, culminando en una confrontación trágica.</summary>
+        <actor>Tommy Wiseau</actor>
+        <actor>Greg Sestero</actor>
+        <actor>Juliette Danielle</actor>
+        <script>Tommy Wiseau</script>
+        <photo>Todd Barron</photo>
+        <music>Mladen Milicevic</music>
+        <genre>&drm;</genre>
+        <duration>99</duration>
+        <ytId>9-dIdFXeFhs</ytId>
+        <rating>3.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg">
+        <title>Crepúsculo</title>
+        <year>2008</year>
+        <director>Catherine Hardwicke</director>
+        <summary>Bella Swan se muda a Forks y se enamora de Edward Cullen, un vampiro de 108 años. Mientras su romance florece, Bella se convierte en el objetivo de un clan de vampiros rastreadores.</summary>
+        <actor>Kristen Stewart</actor>
+        <actor>Robert Pattinson</actor>
+        <actor>Billy Burke</actor>
+        <script>Melissa Rosenberg</script>
+        <photo>Elliot Davis</photo>
+        <music>Carter Burwell</music>
+        <genre>&rom;</genre>
+        <genre>&thr;</genre>
+        <duration>121</duration>
+        <ytId>uxjNDE2fMjI</ytId>
+        <rating>5.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/56As6XEM1flWvprX4LgkPl8ii4K.jpg">
+        <title>Indiana Jones y el reino de la calavera de cristal</title>
+        <year>2008</year>
+        <director>Steven Spielberg</director>
+        <summary>En plena Guerra Fría, Indiana Jones y el joven Mutt Williams buscan la legendaria Calavera de Cristal de Akator en las selvas de Perú, perseguidos por agentes soviéticos que creen que la pieza les otorgará el control mental del mundo.</summary>
+        <actor>Harrison Ford</actor>
+        <actor>Cate Blanchett</actor>
+        <actor>Shia LaBeouf</actor>
+        <script>David Koepp</script>
+        <photo>Janusz Kaminski</photo>
+        <music>John Williams</music>
+        <genre>&acc;</genre>
+        <duration>122</duration>
+        <ytId>WAdJf4wTC5Y</ytId>
+        <rating>6.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/xJVl1I95StraYAwaNbBkVoWE2qA.jpg">
+        <title>Godzilla</title>
+        <year>1998</year>
+        <director>Roland Emmerich</director>
+        <summary>Las pruebas nucleares francesas mutan a una iguana en un monstruo gigante que elige Manhattan como nido. El científico Niko Tatopoulos debe descubrir el secreto reproductivo de la criatura antes de que sus crías invadan la ciudad.</summary>
+        <actor>Matthew Broderick</actor>
+        <actor>Jean Reno</actor>
+        <actor>Maria Pitillo</actor>
+        <script>Dean Devlin</script>
+        <script>Roland Emmerich</script>
+        <photo>Ueli Steiger</photo>
+        <music>David Arnold</music>
+        <genre>&sfi;</genre>
+        <genre>&acc;</genre>
+        <duration>139</duration>
+        <ytId>TAfd8SaG4T8</ytId>
+        <rating>5.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg">
+        <title>Batman y Robin</title>
+        <year>1997</year>
+        <director>Joel Schumacher</director>
+        <summary>Batman y Robin se enfrentan a Mr. Freeze, que planea congelar Gotham, y a Hiedra Venenosa, que busca destruir a la humanidad. La llegada de Batgirl será clave para unir al equipo y salvar la ciudad.</summary>
+        <actor>George Clooney</actor>
+        <actor>Arnold Schwarzenegger</actor>
+        <actor>Uma Thurman</actor>
+        <script>Akiva Goldsman</script>
+        <photo>Stephen Goldblatt</photo>
+        <music>Elliot Goldenthal</music>
+        <genre>&acc;</genre>
+        <genre>&sfi;</genre>
+        <duration>125</duration>
+        <ytId>4RBXypX4qWI</ytId>
+        <rating>3.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/iXMvYIlzzJBs352CfeiQcBvovZt.jpg">
+        <title>After Earth</title>
+        <year>2013</year>
+        <director>M. Night Shyamalan</director>
+        <summary>Tras estrellarse en la Tierra, un planeta hostil abandonado por la humanidad, el joven Kitai debe emprender un peligroso viaje en solitario para recuperar una baliza de rescate y salvar a su padre, el legendario general Cypher, gravemente herido.</summary>
+        <actor>Jaden Smith</actor>
+        <actor>Will Smith</actor>
+        <actor>Sophie Okonedo</actor>
+        <script>Gary Whitta</script>
+        <script>M. Night Shyamalan</script>
+        <photo>Peter Suschitzky</photo>
+        <music>James Newton Howard</music>
+        <genre>&sfi;</genre>
+        <genre>&acc;</genre>
+        <duration>100</duration>
+        <ytId>CZIt20emgLY</ytId>
+        <rating>5.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/fj21HwUprqjjwTdkKC1XZurRSpV.jpg">
+        <title>Linterna Verde</title>
+        <year>2011</year>
+        <director>Martin Campbell</director>
+        <summary>El piloto Hal Jordan se convierte en el primer humano de los Green Lantern Corps, una hermandad intergaláctica de guerreros. Deberá superar sus miedos para derrotar a Parallax, una entidad que amenaza con destruir la Tierra y el cosmos.</summary>
+        <actor>Ryan Reynolds</actor>
+        <actor>Blake Lively</actor>
+        <actor>Peter Sarsgaard</actor>
+        <script>Greg Berlanti</script>
+        <script>Michael Green</script>
+        <photo>Dion Beebe</photo>
+        <music>James Newton Howard</music>
+        <genre>&acc;</genre>
+        <genre>&sfi;</genre>
+        <duration>114</duration>
+        <ytId>vkPx0oyfzeY</ytId>
+        <rating>5.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/atEmHkVFTSGRYt2PeCiziQqbZnI.jpg">
+        <title>Sharknado</title>
+        <year>2013</year>
+        <director>Anthony C. Ferrante</director>
+        <summary>Un huracán arroja miles de tiburones sobre Los Ángeles a través de tornados. Fin Shepard y sus amigos deben cruzar la ciudad inundada, armados con motosierras, para salvar a su familia de los tiburones que caen del cielo.</summary>
+        <actor>Ian Ziering</actor>
+        <actor>Tara Reid</actor>
+        <actor>John Heard</actor>
+        <script>Thunder Levin</script>
+        <photo>Ben Demaree</photo>
+        <music>Ramin Kousha</music>
+        <genre>&ter;</genre>
+        <genre>&sfi;</genre>
+        <duration>86</duration>
+        <ytId>TWu0zZljle4</ytId>
+        <rating>3.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/60bTx5z9zL1AqCjZ0gmWoRMJ6Bb.jpg">
+        <title>Emoji: La película</title>
+        <year>2017</year>
+        <director>Tony Leondis</director>
+        <summary>Gene es un emoji que puede expresar múltiples emociones, algo imposible en Textópolis. Con ayuda de sus amigos, emprende una aventura por las aplicaciones del teléfono para encontrar el código que lo "arregle" antes de que el dispositivo sea borrado.</summary>
+        <actor>T.J. Miller</actor>
+        <actor>James Corden</actor>
+        <actor>Anna Faris</actor>
+        <script>Tony Leondis</script>
+        <script>Eric Siegel</script>
+        <music>Patrick Doyle</music>
+        <genre>&ani;</genre>
+        <genre>&com;</genre>
+        <duration>86</duration>
+        <ytId>r8pJt4dK_s4</ytId>
+        <rating>3.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/d5YmQx9kPLQBHEboGwrAavypztB.jpg">
+        <title>Máquina de guerra</title>
+        <year>2026</year>
+        <director>Patrick Hughes</director>
+        <summary>En una última misión agotadora durante el entrenamiento para ser ranger, un ingeniero de combate debe liderar a su unidad contra una gigantesca máquina asesina de otro mundo.</summary>
+        <actor>Alan Ritchson</actor>
+        <actor>Dennis Quaid</actor>
+        <actor>Stephan James</actor>
+        <script>Patrick Hughes</script>
+        <script>James Beaufort</script>
+        <photo>Gelareh Kiazand</photo>
+        <music>Dmitri Golovko</music>
+        <genre>&acc;</genre>
+        <genre>&sfi;</genre>
+        <duration>106</duration>
+        <ytId>GjDIeYfxO1M</ytId>
+        <rating>7.3</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/l9S8MLUyi2diTc2Gf3KDAOQTuVx.jpg">
+        <title>Peaky Blinders: El hombre inmortal</title>
+        <year>2026</year>
+        <director>Tom Harper</director>
+        <summary>El gánster Tommy Shelby regresa a Birmingham para salvar a su familia —y a su país— cuando su hijo, del que se ha distanciado, se ve envuelto en un complot nazi.</summary>
+        <actor>Cillian Murphy</actor>
+        <actor>Rebecca Ferguson</actor>
+        <actor>Tim Roth</actor>
+        <script>Steven Knight</script>
+        <photo>George Steel</photo>
+        <music>Antony Genn</music>
+        <genre>&drm;</genre>
+        <genre>&thr;</genre>
+        <duration>112</duration>
+        <ytId>jog9LDQJal0</ytId>
+        <rating>7.4</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/2pULHV2e3W7KNTyyfZl6dX071Np.jpg">
+        <title>Scream 7</title>
+        <year>2026</year>
+        <director>Kevin Williamson</director>
+        <summary>Cuando un nuevo asesino Ghostface aparece en el tranquilo pueblo donde Sidney Prescott ha construido una nueva vida, sus peores miedos se hacen realidad cuando su hija se convierte en el siguiente objetivo. Decidida a proteger a su familia, Sidney debe enfrentarse a su pasado.</summary>
+        <actor>Neve Campbell</actor>
+        <actor>Courteney Cox</actor>
+        <actor>Isabel May</actor>
+        <script>Guy Busick</script>
+        <script>James Vanderbilt</script>
+        <script>Kevin Williamson</script>
+        <photo>Tim Ives</photo>
+        <music>Marco Beltrami</music>
+        <genre>&ter;</genre>
+        <genre>&thr;</genre>
+        <duration>114</duration>
+        <ytId>bK-Sam8baFU</ytId>
+        <rating>5.9</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/7lwOTxajURKEWO6gI370NTrVdBO.jpg">
+        <title>Proyecto Salvación</title>
+        <year>2026</year>
+        <director>Phil Lord, Christopher Miller</director>
+        <summary>El profesor Ryland Grace se despierta en una nave espacial a años luz de casa sin recordar quién es. A medida que recupera la memoria, descubre su misión: resolver el enigma de una sustancia que provoca la extinción del sol, recurriendo a su ciencia y a una amistad inesperada.</summary>
+        <actor>Ryan Gosling</actor>
+        <actor>James Ortiz</actor>
+        <actor>Sandra Hüller</actor>
+        <script>Andy Weir</script>
+        <script>Drew Goddard</script>
+        <script>Richard Phelan</script>
+        <photo>Greig Fraser</photo>
+        <music>Daniel Pemberton</music>
+        <genre>&sfi;</genre>
+        <genre>&drm;</genre>
+        <duration>157</duration>
+        <ytId>jz6JB0LCNRs</ytId>
+        <rating>8.2</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/kOsqd5jFZ0p3O8Z0k0VQvBW2neW.jpg">
+        <title>Shelter: El Protector</title>
+        <year>2026</year>
+        <director>Ric Roman Waugh</director>
+        <summary>Un solitario recluso que habita en una remota isla escocesa rescata a una misteriosa niña del mar, desencadenando una peligrosa y violenta secuencia de acontecimientos que pondrán a prueba su instinto de supervivencia.</summary>
+        <actor>Jason Statham</actor>
+        <actor>Bodhi Rae Breathnach</actor>
+        <actor>Michael Shaeffer</actor>
+        <script>Ward Parry</script>
+        <photo>Martin Ahlgren</photo>
+        <music>David Buckley</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>108</duration>
+        <ytId>jr_oEh9HS0Y</ytId>
+        <rating>6.6</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/wkmzt08vghSGlLYuqJpx4e2moRX.jpg">
+        <title>Ruta de escape</title>
+        <year>2026</year>
+        <director>Bart Layton</director>
+        <summary>Davis es un escurridizo ladrón que planea su mayor y último golpe. Sin embargo, se verá obligado a colaborar con una ejecutiva desilusionada y un ladrón rival, mientras un implacable teniente se acerca peligrosamente a su operación multimillonaria.</summary>
+        <actor>Chris Hemsworth</actor>
+        <actor>Mark Ruffalo</actor>
+        <actor>Halle Berry</actor>
+        <script>Don Winslow</script>
+        <script>Bart Layton</script>
+        <photo>Erik Wilson</photo>
+        <music>Benjamin John Power</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>141</duration>
+        <ytId>5401mLG15qI</ytId>
+        <rating>7.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/q7aijAKE98Fcp6dgR6oWiUkFO2g.jpg">
+        <title>Greenland 2</title>
+        <year>2026</year>
+        <director>Ric Roman Waugh</director>
+        <summary>La familia Garrity superviviente debe abandonar la seguridad del búnker de Groenlandia y embarcarse en un peligroso viaje a través del diezmado páramo helado de Europa para encontrar un nuevo hogar tras la devastación global.</summary>
+        <actor>Gerard Butler</actor>
+        <actor>Morena Baccarin</actor>
+        <actor>Roman Griffin Davis</actor>
+        <script>Chris Sparling</script>
+        <script>Mitchell LaFortune</script>
+        <photo>Martin Ahlgren</photo>
+        <music>David Buckley</music>
+        <genre>&sfi;</genre>
+        <genre>&acc;</genre>
+        <duration>98</duration>
+        <ytId>ObUUuWCM-aQ</ytId>
+        <rating>6.4</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/trmpaFGqzMBcy99PKbSDfRNTbf1.jpg">
+        <title>Whistle: El silbido del mal</title>
+        <year>2026</year>
+        <director>Corin Hardy</director>
+        <summary>Un grupo de estudiantes encuentra un antiguo silbato de la muerte azteca. Al soplarlo, el terrorífico sonido invoca a sus propias muertes futuras para perseguirlos. Mientras las víctimas aumentan, los amigos intentan descubrir el origen de la maldición.</summary>
+        <actor>Dafne Keen</actor>
+        <actor>Sophie Nélisse</actor>
+        <actor>Sky Yang</actor>
+        <script>Owen Egerton</script>
+        <photo>Björn Charpentier</photo>
+        <music>Doomphonic</music>
+        <genre>&ter;</genre>
+        <genre>&thr;</genre>
+        <duration>100</duration>
+        <ytId>i_IPk2ZV8uw</ytId>
+        <rating>6.1</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/5Y2TeCVEnwPbd4FDShGbkKYw6GE.jpg">
+        <title>Return to Silent Hill</title>
+        <year>2026</year>
+        <director>Christophe Gans</director>
+        <summary>Impulsado por las sombras de su pasado, James Sunderland regresa a Silent Hill para encontrar a su amor perdido. Pero el pueblo ya no es el lugar que recuerda, y fuerzas oscuras intentan distraerlo haciéndole dudar de su propia realidad.</summary>
+        <actor>Jeremy Irvine</actor>
+        <actor>Hannah Emily Anderson</actor>
+        <actor>Evie Templeton</actor>
+        <script>Sandra Vo-Anh</script>
+        <script>Christophe Gans</script>
+        <script>William Josef Schneider</script>
+        <photo>Pablo Rosso</photo>
+        <music>Akira Yamaoka</music>
+        <genre>&ter;</genre>
+        <genre>&thr;</genre>
+        <duration>106</duration>
+        <ytId>-8trfk7CHmA</ytId>
+        <rating>5.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/4Z0E1W7YvQ0aVtgj7KKtktb9ukd.jpg">
+        <title>Hoppers</title>
+        <year>2026</year>
+        <director>Daniel Chong</director>
+        <summary>Una amante de los animales aprovecha la oportunidad de utilizar una tecnología innovadora que coloca su conciencia en un castor robótico, descubriendo increíbles misterios dentro del mundo animal que van mucho más allá de su imaginación.</summary>
+        <actor>Piper Curda</actor>
+        <actor>Bobby Moynihan</actor>
+        <actor>Jon Hamm</actor>
+        <script>Max Sachar</script>
+        <script>Madeline Sharafian</script>
+        <script>Jesse Andrews</script>
+        <photo>Jeremy Lasky</photo>
+        <music>Mark Mothersbaugh</music>
+        <genre>&ani;</genre>
+        <genre>&com;</genre>
+        <duration>105</duration>
+        <ytId>F7kfhqgVeIg</ytId>
+        <rating>7.6</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/afGUJcMBJloAUp9uC27MQiqkD7X.jpg">
+        <title>Cumbres Borrascosas</title>
+        <year>2026</year>
+        <director>Emerald Fennell</director>
+        <summary>Una audaz reinterpretación de una de las historias de amor más grandes de todos los tiempos. La pasión prohibida entre Cathy y Heathcliff se transforma de romántica a intoxicante en una épica y oscura historia de lujuria, amor y pura locura.</summary>
+        <actor>Margot Robbie</actor>
+        <actor>Jacob Elordi</actor>
+        <actor>Hong Chau</actor>
+        <script>Emily Brontë</script>
+        <script>Emerald Fennell</script>
+        <photo>Linus Sandgren</photo>
+        <music>Anthony B. Willis</music>
+        <genre>&drm;</genre>
+        <genre>&rom;</genre>
+        <duration>136</duration>
+        <ytId>RNynG8dMp5w</ytId>
+        <rating>6.4</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg">
+        <title>Dhurandhar The Revenge</title>
+        <year>2026</year>
+        <director>Aditya Dhar</director>
+        <summary>Hamza Ali Mazari, cuya verdadera identidad secreta es Jaskirat Singh Rangi, se adentra de lleno y continúa su peligrosa operación encubierta en el mundo criminal de Pakistán mientras rastrea implacablemente a su archienemigo Majo.</summary>
+        <actor>Ranveer Singh</actor>
+        <actor>Arjun Rampal</actor>
+        <actor>R. Madhavan</actor>
+        <script>Aditya Dhar</script>
+        <script>Irshad Kamil</script>
+        <script>Aarsh Vora</script>
+        <photo>Vikash Nowlakha</photo>
+        <music>Shashwat Sachdev</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>235</duration>
+        <ytId>NHk7scrb_9I</ytId>
+        <rating>7.8</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/oBYExKI8E3bTzQjPkofhpV2EJon.jpg">
+        <title>Vanaveera</title>
+        <year>2026</year>
+        <director>Desconocido</director>
+        <summary>En lo profundo de una selva olvidada, un enigmático y letal guerrero emerge de las sombras para defender a las tribus ancestrales contra una corporación extractiva dispuesta a destruirlo todo a su paso.</summary>
+        <actor>Chammak Chandra</actor>
+        <actor>Simran Choudhary</actor>
+        <actor>Nandu Vijay Krishna</actor>
+        <script>Desconocido</script>
+        <photo>Desconocido</photo>
+        <music>Desconocido</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>120</duration>
+        <ytId>PxsCtKJk2vY</ytId>
+        <rating>7.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/iWLV12z9oexSRLz2WKyqCZbKoPA.jpg">
+        <title>Guardianes de la noche: Kimetsu no Yaiba La fortaleza infinita</title>
+        <year>2025</year>
+        <director>Haruo Sotozaki</director>
+        <summary>El valiente Cuerpo de Cazadores de Demonios se adentra en lo desconocido para enfrentarse a los Doce Kizuki restantes antes de su batalla final contra el temible Muzan en el enigmático Castillo del Infinito.</summary>
+        <actor>Natsuki Hanae</actor>
+        <actor>Takahiro Sakurai</actor>
+        <actor>Akira Ishida</actor>
+        <script>Koyoharu Gotouge</script>
+        <script>Hikaru Kondo</script>
+        <photo>Yuichi Terao</photo>
+        <music>Yuki Kajiura</music>
+        <genre>&ani;</genre>
+        <genre>&acc;</genre>
+        <duration>155</duration>
+        <ytId>X3E4zogzWsY</ytId>
+        <rating>7.7</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/ftBCLqEhDvgKRcux0fk5TriVhMD.jpg">
+        <title>Escuadrón letal</title>
+        <year>2025</year>
+        <director>Larry Yang</director>
+        <summary>El experto en rastreo retirado Huang De Zhong debe unir fuerzas con la joven élite del Departamento de Investigación Criminal de Macao. En un violento choque entre métodos tradicionales y alta tecnología, se desata un duelo mortal contra astutos ladrones.</summary>
+        <actor>Jackie Chan</actor>
+        <actor>Zhang Zifeng</actor>
+        <actor>Tony Leung Ka-fai</actor>
+        <script>Larry Yang</script>
+        <photo>Qian Tiantian</photo>
+        <music>Nicolas Errèra</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>142</duration>
+        <ytId>P_a_fnvmULY</ytId>
+        <rating>7.2</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/tEFMZGcmxBDCodbLAqmrjdjCTwm.jpg">
+        <title>Zeta</title>
+        <year>2026</year>
+        <director>Dani de la Torre</director>
+        <summary>Tras el asesinato de cuatro ex-oficiales españoles en distintas embajadas, el CNI desentierra la oculta 'Operación Ciénaga'. Su mejor agente, Zeta, deberá encontrar al único superviviente de la misión original antes de que los asesinos lo hagan.</summary>
+        <actor>Mario Casas</actor>
+        <actor>Mariela Garriga</actor>
+        <actor>Luis Zahera</actor>
+        <script>Dani de la Torre</script>
+        <script>Jordi Vallejo</script>
+        <script>Oriol Paulo</script>
+        <photo>Desconocido</photo>
+        <music>Desconocido</music>
+        <genre>&thr;</genre>
+        <genre>&acc;</genre>
+        <duration>133</duration>
+        <ytId>WcbMZ6ittEU</ytId>
+        <rating>6.9</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/uye25uG7k8r3NNPLyPiKOiRnFRF.jpg">
+        <title>The Deadly Little Mermaid</title>
+        <year>2026</year>
+        <director>Cameron Uzoka</director>
+        <summary>En una oscura reinterpretación del clásico cuento, una mítica criatura marina con una incontrolable sed de venganza emerge a la superficie para sembrar el terror en una pequeña comunidad costera.</summary>
+        <actor>Elliott Eason</actor>
+        <actor>Sophia Carroll</actor>
+        <actor>Eleanor Mackenzie</actor>
+        <script>C.M. Wright</script>
+        <photo>Nikhil Ranade</photo>
+        <music>Matthew Hammet</music>
+        <genre>&ter;</genre>
+        <genre>&thr;</genre>
+        <duration>80</duration>
+        <ytId>xU4bplQ2ZbY</ytId>
+        <rating>5.1</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/2cvhj3aOfwhuxK1LDSfsTXHdj3b.jpg">
+        <title>David</title>
+        <year>2025</year>
+        <director>Phil Cunningham, Brent Dawes</director>
+        <summary>En un reino subyugado y gobernado por el miedo, un joven pastor armado de fe se atreve a enfrentarse a un guerrero gigante y a la oscuridad inminente que se oculta tras él, cambiando el destino de toda su nación.</summary>
+        <actor>Brandon Engman</actor>
+        <actor>Brian Stivale</actor>
+        <actor>Shahar Taboch</actor>
+        <script>Brent Dawes</script>
+        <photo>Desconocido</photo>
+        <music>Joseph Trapanese</music>
+        <genre>&ani;</genre>
+        <genre>&drm;</genre>
+        <duration>115</duration>
+        <ytId>TLonpZ_ZAlg</ytId>
+        <rating>8.1</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/2DTPapravB7kVBWjm6RsqEWyNqn.jpg">
+        <title>28 años después: El templo de los huesos</title>
+        <year>2026</year>
+        <director>Nia DaCosta</director>
+        <summary>Mientras el Dr. Kelson lidia con descubrimientos que podrían cambiar el mundo, el joven Spike vive una pesadilla atrapado por un aterrador líder. En este mundo devastado, la crueldad humana rivaliza con la amenaza de los infectados.</summary>
+        <actor>Ralph Fiennes</actor>
+        <actor>Jack O'Connell</actor>
+        <actor>Alfie Williams</actor>
+        <script>Alex Garland</script>
+        <photo>Sean Bobbitt</photo>
+        <music>Hildur Guðnadóttir</music>
+        <genre>&ter;</genre>
+        <genre>&sfi;</genre>
+        <duration>110</duration>
+        <ytId>PTQ1naoCw88</ytId>
+        <rating>7.2</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/gGVAGx9nPSBi27NnjbBVVoKeBni.jpg">
+        <title>Turno de noche</title>
+        <year>2026</year>
+        <director>Jonny Campbell</director>
+        <summary>Tras el escape de un veloz hongo mutante altamente contagioso de una instalación de alta seguridad, dos jóvenes empleados y un veterano agente deben sobrevivir a una frenética noche de terror para intentar evitar la extinción de la humanidad.</summary>
+        <actor>Joe Keery</actor>
+        <actor>Georgina Campbell</actor>
+        <actor>Liam Neeson</actor>
+        <script>David Koepp</script>
+        <photo>Tony Slater Ling</photo>
+        <music>Mathieu Lamboley</music>
+        <genre>&sfi;</genre>
+        <genre>&ter;</genre>
+        <duration>99</duration>
+        <ytId>um_yUFLN8Us</ytId>
+        <rating>6.8</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/tQV0X354U142Cao8Be6eUt38spS.jpg">
+        <title>Noche de bodas 2</title>
+        <year>2026</year>
+        <director>Matt Bettinelli-Olpin, Tyler Gillett</director>
+        <summary>Tras sobrevivir a la familia Le Domas, Grace debe afrontar un nivel aún más brutal. Acompañada por su distante hermana Faith, tendrá que enfrentarse a cuatro familias rivales sedientas de sangre para reclamar el control del Alto Trono del Consejo.</summary>
+        <actor>Samara Weaving</actor>
+        <actor>Kathryn Newton</actor>
+        <actor>Elijah Wood</actor>
+        <script>Guy Busick</script>
+        <script>R. Christopher Murphy</script>
+        <photo>Brett Jutkiewicz</photo>
+        <music>Sven Faulconer</music>
+        <genre>&ter;</genre>
+        <genre>&com;</genre>
+        <duration>108</duration>
+        <ytId>OHMbpSUkcfc</ytId>
+        <rating>7.3</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/5lVYe4aSimWdxJINKwq9s68TZ2G.jpg">
+        <title>Abot Langit</title>
+        <year>2026</year>
+        <director>Topel Lee</director>
+        <summary>Atrapados en medio de disputas familiares y divisiones de clase, dos jóvenes amantes deben arriesgarlo todo para defender un romance prohibido que desafía todas las convenciones sociales en su pequeña comunidad.</summary>
+        <actor>Aliya Raymundo</actor>
+        <actor>JC Tan</actor>
+        <actor>Jio Yoshida</actor>
+        <script>Desconocido</script>
+        <photo>Desconocido</photo>
+        <music>Desconocido</music>
+        <genre>&drm;</genre>
+        <genre>&rom;</genre>
+        <duration>70</duration>
+        <ytId>P2lvnNd7YHM</ytId>
+        <rating>5.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/qXF968t2LfHZJ8Zrq2NgMGNomnE.jpg">
+        <title>Hamnet</title>
+        <year>2025</year>
+        <director>Chloé Zhao</director>
+        <summary>Una conmovedora mirada a la vida de Agnes, la enigmática esposa de William Shakespeare, mientras ambos luchan por asimilar una inmensa pérdida familiar, sirviendo como chispa creativa para la mítica obra de teatro 'Hamlet'.</summary>
+        <actor>Jessie Buckley</actor>
+        <actor>Paul Mescal</actor>
+        <actor>Emily Watson</actor>
+        <script>Maggie O'Farrell</script>
+        <script>Chloé Zhao</script>
+        <photo>Łukasz Żal</photo>
+        <music>Max Richter</music>
+        <genre>&drm;</genre>
+        <genre>&rom;</genre>
+        <duration>126</duration>
+        <ytId>xYcgQMxQwmk</ytId>
+        <rating>7.7</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/8ExwomWgJoXBdY3u1Otiw2zY9wZ.jpg">
+        <title>Kraken</title>
+        <year>2026</year>
+        <director>Pål Øie</director>
+        <summary>La bióloga Johanne investiga unas brutales muertes cerca de un fiordo noruego. Todas las pruebas la llevan a descubrir que, en las oscuras profundidades abisales, despierta un monstruo mitológico con apetito voraz y el tamaño de una montaña.</summary>
+        <actor>Sara Khorami</actor>
+        <actor>Mikkel Bratt Silset</actor>
+        <actor>Ingvild Holthe Bygdnes</actor>
+        <script>Vilde Eide</script>
+        <script>Kjersti Helen Rasmussen</script>
+        <script>Natasha Arthur</script>
+        <photo>Sjur Aarthun</photo>
+        <music>Desconocido</music>
+        <genre>&ter;</genre>
+        <genre>&sfi;</genre>
+        <duration>94</duration>
+        <ytId>ZRJKlewAlFg</ytId>
+        <rating>6.2</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/dtEVoZBMuwlgz4mh4PA75eVbBM1.jpg">
+        <title>Buena suerte, pásalo bien, no mueras</title>
+        <year>2026</year>
+        <director>Gore Verbinski</director>
+        <summary>Un misterioso viajero temporal llega a Los Ángeles para reclutar apresuradamente a un grupo de inadaptados en un restaurante. En una sola noche, este caótico escuadrón será la única barrera contra una I.A. que planea erradicar la raza humana.</summary>
+        <actor>Sam Rockwell</actor>
+        <actor>Juno Temple</actor>
+        <actor>Haley Lu Richardson</actor>
+        <script>Matthew Robinson</script>
+        <photo>James Whitaker</photo>
+        <music>Geoff Zanelli</music>
+        <genre>&sfi;</genre>
+        <genre>&acc;</genre>
+        <duration>135</duration>
+        <ytId>aC7uF7dHR7Y</ytId>
+        <rating>6.9</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/a0Fn0PiGGiU74jIUelpce6z70i9.jpg">
+        <title>Torrente Presidente</title>
+        <year>2026</year>
+        <director>Santiago Segura</director>
+        <summary>El inefable José Luis Torrente decide incursionar directamente en las altas esferas de la política española, provocando un desfile de situaciones absurdas y vulgaridad en una mordaz sátira sobre la corrupción y la sociedad actual.</summary>
+        <actor>Santiago Segura</actor>
+        <actor>Fernando Esteso</actor>
+        <actor>Gabino Diego</actor>
+        <script>Santiago Segura</script>
+        <photo>Javier Salmones</photo>
+        <music>Roque Baños</music>
+        <genre>&com;</genre>
+        <genre>&acc;</genre>
+        <duration>102</duration>
+        <ytId>tnH_xUjTObI</ytId>
+        <rating>6.3</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/9kPxIXNWUBO5ff98XVVUMecuPlM.jpg">
+        <title>Alpha</title>
+        <year>2025</year>
+        <director>Julia Ducournau</director>
+        <summary>Alpha, una problemática adolescente de 13 años que convive únicamente con su madre, ve cómo su realidad se desmorona y transmuta en una pesadilla febril el día en que regresa misteriosamente de la escuela marcada con un extraño tatuaje.</summary>
+        <actor>Mélissa Boros</actor>
+        <actor>Tahar Rahim</actor>
+        <actor>Golshifteh Farahani</actor>
+        <script>Julia Ducournau</script>
+        <photo>Ruben Impens</photo>
+        <music>Jim Williams</music>
+        <genre>&drm;</genre>
+        <genre>&sfi;</genre>
+        <duration>128</duration>
+        <ytId>-quf60SSvjg</ytId>
+        <rating>6.4</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/kdCiVGBmk9IVMT0BPf030hkQB41.jpg">
+        <title>Turbulencias</title>
+        <year>2025</year>
+        <director>Claudio Fäh</director>
+        <summary>Una aparentemente tranquila y romántica escapada en un globo aerostático sobre paisajes increíbles se convierte rápidamente en una lucha desesperada por la supervivencia debido a extremas y terroríficas inclemencias meteorológicas.</summary>
+        <actor>Jeremy Irvine</actor>
+        <actor>Olga Kurylenko</actor>
+        <actor>Kelsey Grammer</actor>
+        <script>Andy Mayson</script>
+        <photo>Jaime Reynoso</photo>
+        <music>Marcus Trumpp</music>
+        <genre>&thr;</genre>
+        <genre>&acc;</genre>
+        <duration>91</duration>
+        <ytId>k_8YOQ0TMfM</ytId>
+        <rating>6.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/2neZgVuY7prWIak5hhNKT53Hk0N.jpg">
+        <title>Sundutan</title>
+        <year>2026</year>
+        <director>Rodante Pajemna Jr.</director>
+        <summary>Varios años después de ocultar las verdaderas y fatales consecuencias de un suceso juvenil, un fracturado grupo de amigos descubre con pánico que sus oscuros secretos están saliendo trágicamente a la luz uno por uno.</summary>
+        <actor>Allison Ross</actor>
+        <actor>Jade Esguerra</actor>
+        <actor>Mark Dionisio</actor>
+        <script>Desconocido</script>
+        <photo>Desconocido</photo>
+        <music>Desconocido</music>
+        <genre>&drm;</genre>
+        <genre>&thr;</genre>
+        <duration>70</duration>
+        <ytId>iVOyYHzvbKc</ytId>
+        <rating>4.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/l8Y8o3RpFg54gmQQ8GVaxVroFmY.jpg">
+        <title>GOAT: Como cabras</title>
+        <year>2026</year>
+        <director>Tyree Dillihay</director>
+        <summary>Will, una diminuta cabra rebosante de energía, logra entrar en la exigente liga profesional de rugebol. A pesar de la desconfianza de sus agresivos y fornidos compañeros de equipo, Will está más que dispuesta a cambiar el deporte.</summary>
+        <actor>Caleb McLaughlin</actor>
+        <actor>Gabrielle Union</actor>
+        <actor>Stephen Curry</actor>
+        <script>Airin Budiman</script>
+        <script>Keely Propp</script>
+        <script>James W. Suhr</script>
+        <photo>John Clark</photo>
+        <music>Kris Bowers</music>
+        <genre>&ani;</genre>
+        <genre>&com;</genre>
+        <duration>100</duration>
+        <ytId>WASk_9jPvRk</ytId>
+        <rating>7.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/mIx9KAE3DgmrGJKwIL0xjIUfkBT.jpg">
+        <title>No te olvidaré</title>
+        <year>2026</year>
+        <director>Vanessa Caswill</director>
+        <summary>Aislada de su propia familia y rechazada por los abuelos de su hija, Kenna encuentra consuelo en Ledger, el dueño de un bar local. El florecimiento de su romance forzará decisiones extremadamente difíciles para su futuro afectivo.</summary>
+        <actor>Maika Monroe</actor>
+        <actor>Tyriq Withers</actor>
+        <actor>Rudy Pankow</actor>
+        <script>Colleen Hoover</script>
+        <script>Lauren Levine</script>
+        <photo>Tim Ives</photo>
+        <music>Tom Howe</music>
+        <genre>&rom;</genre>
+        <genre>&drm;</genre>
+        <duration>114</duration>
+        <ytId>KAb3liJl3A0</ytId>
+        <rating>7.0</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/m93BKabB7Je8WQACed58BXeHNNR.jpg">
+        <title>Infierno bajo cero</title>
+        <year>2026</year>
+        <director>Taavi Vartia</director>
+        <summary>Tras perder el contacto y quedar severamente varados en medio de la blancura gélida de una expedición polar, un equipo debe enfrentarse tanto al mortífero frío extremo como a unos sanguinarios depredadores que acechan bajo el hielo.</summary>
+        <actor>Thea Sofie Loch Næss</actor>
+        <actor>Nikos Koukas</actor>
+        <actor>Mimi Roivainen</actor>
+        <script>Taavi Vartia</script>
+        <photo>Nikos Karanikolas</photo>
+        <music>Desconocido</music>
+        <genre>&thr;</genre>
+        <genre>&ter;</genre>
+        <duration>83</duration>
+        <ytId>zAzeAzCdj44</ytId>
+        <rating>5.5</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/efSsZJaddeq0LOABZqpCXdMxv9P.jpg">
+        <title>Solo Mio</title>
+        <year>2026</year>
+        <director>Daniel Kinnane, Charles Kinnane</director>
+        <summary>Después de ser dolorosa y públicamente plantado en el mismísimo altar, un hombre despechado toma la atípica decisión de no cancelar sus pasajes y disfrutar de su majestuosa luna de miel en Italia completamente en solitario.</summary>
+        <actor>Kevin James</actor>
+        <actor>Alyson Hannigan</actor>
+        <actor>Kim Coates</actor>
+        <script>Kevin James</script>
+        <script>Patrick Kinnane</script>
+        <script>John Kinnane</script>
+        <photo>Jared Fadel</photo>
+        <music>Joy Ngiaw</music>
+        <genre>&com;</genre>
+        <genre>&rom;</genre>
+        <duration>96</duration>
+        <ytId>hvTpQDdZY0k</ytId>
+        <rating>7.1</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/q02d53qC6VGL3Di53bAuIR13rYf.jpg">
+        <title>Scarlet</title>
+        <year>2025</year>
+        <director>Mamoru Hosoda</director>
+        <summary>Una letal y hábil princesa medieval transmigra hacia una extraña época moderna y contemporánea tras fallar en su vendetta. Curada por un idealista terrenal, deberá elegir dolorosamente entre el perdón o ceder a su amargura bélica.</summary>
+        <actor>Mana Ashida</actor>
+        <actor>Masaki Okada</actor>
+        <actor>Yutaka Matsushige</actor>
+        <script>Mamoru Hosoda</script>
+        <photo>Akiko Saito</photo>
+        <music>Taisei Iwasaki</music>
+        <genre>&ani;</genre>
+        <genre>&sfi;</genre>
+        <duration>112</duration>
+        <ytId>C9BqAl26HqY</ytId>
+        <rating>6.8</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/cEXT4bXOrM0pqrK714NP3M69cWW.jpg">
+        <title>Good Boy</title>
+        <year>2026</year>
+        <director>Jan Komasa</director>
+        <summary>El temperamental pandillero juvenil Tommy despierta prisionero de una extraña y disfuncional pareja suburbana que, usando extremas técnicas de control psicológico, se ha obsesionado ciegamente en reformarlo y reeducarlo a su imagen.</summary>
+        <actor>Stephen Graham</actor>
+        <actor>Andrea Riseborough</actor>
+        <actor>Anson Boon</actor>
+        <script>Bartek Bartosik</script>
+        <script>Naqqash Khalid</script>
+        <photo>Michał Dymek</photo>
+        <music>Abel Korzeniowski</music>
+        <genre>&thr;</genre>
+        <genre>&drm;</genre>
+        <duration>110</duration>
+        <ytId>DFKM09QaUbc</ytId>
+        <rating>7.8</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/AsWzPlQK2xJTIrzw6McT8Yvy6H2.jpg">
+        <title>镖人：风起大漠</title>
+        <year>2026</year>
+        <director>Yuen Woo-ping</director>
+        <summary>En la aridez hostil y política de un gran desierto chino, un letal guerrero asume la traicionera misión de escoltar a un blanco sumamente valioso mientras esquivan feroces ejércitos y conspiraciones mortales de palacio.</summary>
+        <actor>Wu Jing</actor>
+        <actor>Nicholas Tse</actor>
+        <actor>Yu Shi</actor>
+        <script>Su Chaobin</script>
+        <script>Larry Yang</script>
+        <script>Xu Xianzhe</script>
+        <photo>Zhang Dongliang</photo>
+        <music>Steffen Thum</music>
+        <genre>&acc;</genre>
+        <genre>&drm;</genre>
+        <duration>126</duration>
+        <ytId>FGL37amyjKc</ytId>
+        <rating>7.1</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/qXZZtyzuTX3KMfSLssCR6J0mODd.jpg">
+        <title>SEND HELP (Enviad ayuda)</title>
+        <year>2026</year>
+        <director>Sam Raimi</director>
+        <summary>Un estrepitoso accidente aéreo obliga a una competente oficinista a tolerar y liderar por obligación la supervivencia salvaje de su insufrible y mimado exjefe en medio de una inhóspita y alejada isla en el océano.</summary>
+        <actor>Rachel McAdams</actor>
+        <actor>Dylan O'Brien</actor>
+        <actor>Edyll Ismail</actor>
+        <script>Damian Shannon</script>
+        <script>Mark Swift</script>
+        <photo>Bill Pope</photo>
+        <music>Danny Elfman</music>
+        <genre>&com;</genre>
+        <genre>&thr;</genre>
+        <duration>113</duration>
+        <ytId>xRiDy71Sapg</ytId>
+        <rating>7.1</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/6oOyMLOP7wL3yl11E6BURRm2eqZ.jpg">
+        <title>Ajuste de cuentas: La ciudad de los lobos</title>
+        <year>2025</year>
+        <director>John Stalberg Jr.</director>
+        <summary>El retirado oficial K-9 Jake Rosser sufre un violento ataque pandillero. Acompañado de su nuevo compañero perruno 'Argos', se adentra en el bajo mundo del narcotráfico descubriendo que también debe pelear contra los propios funcionarios de la ley.</summary>
+        <actor>Aaron Eckhart</actor>
+        <actor>Tanya van Graan</actor>
+        <actor>Karl Thaning</actor>
+        <script>Jacob Michael King</script>
+        <script>John Stalberg Jr.</script>
+        <script>Carlyle Eubank</script>
+        <photo>Pieter Vermeer</photo>
+        <music>Paul Gallister</music>
+        <genre>&acc;</genre>
+        <genre>&thr;</genre>
+        <duration>93</duration>
+        <ytId>J6xnTjG9S_Y</ytId>
+        <rating>6.7</rating>
+    </movie>
+    <movie poster="https://image.tmdb.org/t/p/w500/mNxebIggQk0mSZ0qF8MjCMTHYL4.jpg">
+        <title>Do Not Enter</title>
+        <year>2026</year>
+        <director>Marc Klasfeld</director>
+        <summary>Jóvenes exploradores urbanos que documentan ruinas entran en un antiguo hotel. Allí deberán sobrevivir a un espectro enfurecido y lidiar paralelamente contra peligrosos criminales que llegaron cazando un mito monetario.</summary>
+        <actor>Francesca Reale</actor>
+        <actor>Nicholas Hamilton</actor>
+        <actor>Adeline Rudolph</actor>
+        <script>David Morrell</script>
+        <script>Stephen Susco</script>
+        <script>Spencer Mandel</script>
+        <photo>Yon Thomas</photo>
+        <music>Blitz//Berlin</music>
+        <genre>&ter;</genre>
+        <genre>&thr;</genre>
+        <duration>91</duration>
+        <ytId>jbbaNL6rfEc</ytId>
+        <rating>5.9</rating>
+    </movie>
+</movies>
