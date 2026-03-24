@@ -14,7 +14,7 @@
 
 **PICKaMOVIE** es una web de recomendaciones cinematográficas desarrollada como práctica de la asignatura de **Lenguajes de Marcas**. El proyecto tiene como eje central la **transformación de un documento XML a HTML mediante XSLT 1.0**, generando una interfaz vistosa y funcional a partir de datos estructurados.
 
-El diseño fue prototipado previamente en **Figma** antes de su implementación.
+El prototipo del diseño fue reañizado en **Figma** antes de su implementación.
 
 ---
 
@@ -58,11 +58,11 @@ src/
 | **XSLT 1.0**           | Transformación del XML en HTML                      |
 | **XPath**              | Navegación y expresiones sobre el árbol XML         |
 | **CSS3**               | Diseño visual con custom properties, grid, flexbox  |
-| **JavaScript (ES6+)**  | Interactividad, carruseles, reproductor de trailers |
+| **JavaScript**         | Interactividad, carruseles, reproductor de trailers |
 | **Swiper.js**          | Carruseles responsivos de películas                 |
 | **Motion.js**          | Animaciones de entrada                              |
 | **YouTube IFrame API** | Reproducción de trailers embebidos                  |
-| **Figma**              | Prototipado y diseño visual previo                  |
+| **Figma**              | Diseño visual previo                                |
 
 ---
 
@@ -72,9 +72,10 @@ src/
 - **Sección "Novedades"** → las 10 películas más recientes, ordenadas por año con `xsl:sort`
 - **Sección "Géneros"** → filtrado interactivo por categoría mediante botones + JS
 - **Reproductor de trailers** en pseudo-pantalla completa con controles personalizados (play, mute, avance/retroceso, barra de progreso)
+- **Carteles TMDB**: se muestran los carteles originales directamente desde The Movie Database
 - **Estadísticas calculadas con XPath**: puntuación media, total de películas analizadas, porcentaje de películas con nota > 8
 - Diseño **responsive** adaptado a móvil y tablet
-- Fuente tipográfica personalizada **Be Vietnam Pro** e iconos propios mediante `@font-face`
+- Fuente tipográfica de Google Fonts **Be Vietnam Pro** e iconos propios mediante `@font-face`
 
 ---
 
@@ -129,7 +130,7 @@ src/
 
 ## 📐 Diseño
 
-El diseño fue concebido en **Figma** antes de la implementación, siguiendo una estética oscura con acento en verde menta (`#cfffe2`). Se emplean variables CSS para mantener consistencia cromática y tipográfica en todo el proyecto.
+El diseño fue creado en **Figma** antes de la implementación, siguiendo una estética oscura con acento en verde menta (`#cfffe2`). Se emplean variables CSS para mantener consistencia cromática y tipográfica en todo el proyecto.
 
 ---
 
