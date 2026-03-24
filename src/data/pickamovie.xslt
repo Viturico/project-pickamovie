@@ -448,7 +448,7 @@
                 </footer>
                 <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-                <script src="/main.js"></script>
+                <script src="../main.js"></script>
             </body>
         </html>
     </xsl:template>
