@@ -70,6 +70,8 @@
   font-display: swap;
 }
 
+/* FUENTE DE ICONOS PICKaMOVIE */
+
 @font-face {
   font-family: "pickamovie";
   src:
@@ -91,12 +93,10 @@
   width: 1em;
   margin-right: 0.2em;
   text-align: center;
-  /* opacity: .8; */
 
   font-variant: normal;
   text-transform: none;
 
-  /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
 
   margin-left: 0.2em;
@@ -134,11 +134,17 @@
   content: "\f32c";
 }
 
+/* VARIABLES CSS */
+
 :root {
   --color-fondo: #080808;
   --color-fondo-cards: #101010;
   --color-texto: #f6f6f6;
-  --color-texto-70: color-mix(in srgb, var(--color-texto) 70%, transparent);
+  --color-texto-70: color-mix(
+    in srgb,
+    var(--color-texto) 70%,
+    transparent
+  ); /* Uso de color-mix() */
   --color-texto-60: color-mix(in srgb, var(--color-texto) 60%, transparent);
   --color-texto-50: color-mix(in srgb, var(--color-texto) 50%, transparent);
   --color-texto-40: color-mix(in srgb, var(--color-texto) 40%, transparent);
@@ -216,6 +222,8 @@ logo-movie {
   align-items: center;
   gap: 3px;
 
+  /* Uso de CSS nesting */
+
   i {
     color: var(--color-destacado);
     font-size: 1.5em;
@@ -241,6 +249,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    /* Uso de media-queries de la forma más reciente y por medio de CSS nesting */
 
     @media (width <= 500px) {
       flex-direction: column;
@@ -670,7 +680,6 @@ footer {
   height: 100vh;
   z-index: 9999;
   background: var(--color-fondo);
-  /* Quitamos márgenes por si acaso */
   margin: 0;
   padding: 0;
 

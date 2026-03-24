@@ -1,3 +1,4 @@
+// Cargo la función animate() de Motion
 const { animate } = Motion;
 
 // Cargar la API de YouTube
@@ -79,11 +80,11 @@ function iniciarBarraProgreso() {
   actualizadorBarra = setInterval(function () {
     // Se comprueba que el reproductor existe y está reproduciendo (Estado 1)
     if (player && player.getPlayerState() === 1) {
-      // Obtenemos el tiempo actual y la duración total
+      // Se obtiene el tiempo actual y la duración total
       const tiempoActual = player.getCurrentTime();
       const duracionTotal = player.getDuration();
 
-      // Se calcula el porcentaje (ej: 50%)
+      // Se calcula el porcentaje
       const porcentaje = (tiempoActual / duracionTotal) * 100;
 
       // Se actualiza el ancho de la barra de progreso
@@ -104,7 +105,7 @@ retroceder.addEventListener("click", function () {
     // 1. Segundo exacto del video
     const segundoActual = player.getCurrentTime();
 
-    // 2. Ordenamos al reproductor que avance 5 segundos
+    // 2. Se ordena al reproductor que avance 5 segundos
     // El 'true' final le dice a YT que puede cargar más video por adelantado si lo necesita
     player.seekTo(segundoActual - 5, true);
   }
@@ -178,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
       enabled: true,
       sticky: true,
     },
-    // Estas dos opciones son vitales para que Swiper no se rompa al ocultar elementos con JS
+    // Importante estas dos opciones para que Swiper no se rompa al ocultar elementos con JS
     observer: true,
     observeParents: true,
   });
