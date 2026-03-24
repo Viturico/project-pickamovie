@@ -133,7 +133,6 @@ function toggleMute() {
   } else {
     player.mute();
     mute.style.color = "var(--color-destacado)";
-    player.pauseVideo();
   }
 }
 
