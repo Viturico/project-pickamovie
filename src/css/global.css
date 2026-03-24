@@ -837,3 +837,20 @@ footer a:hover,
 footer a:hover i {
   color: var(--color-destacado);
 }
+
+#loader-container {
+  position: fixed;
+  inset: 0;
+  background: var(--color-fondo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .carga {
+    display: flex;
+    align-items: end;
+
+    .claqueta {
+      width: 227px;
+  }
+}

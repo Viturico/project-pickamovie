@@ -524,6 +524,14 @@
                             <div id="mi-progreso"></div>
                         </div>
                     </div>
+                    <div id="loader-container">
+                        <div class="carga" style="transform: translateX(-35px);">
+                          <svg class="claqueta" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 575 466">
+                            <path d="M175 226v200c0 11 3.92 20.42 11.75 28.25S204 466 215 466h320c11 0 20.42-3.92 28.25-11.75S575 437 575 426V226H175ZM535 426H215V266h320v160Z" fill="#cfffe2"/>
+                            <path class="parte-movil" d="M563.25 157.75C571.08 165.58 575 175 575 186v80H175V186c0-11 3.91-20.42 11.75-28.25C194.58 149.92 204 146 215 146l40 80h60l-40-80h40l40 80h60l-40-80h40l40 80h60l-40-80h60c11 0 20.41 3.92 28.25 11.75Z" fill="#cfffe2"/>
+                          </svg>
+                        </div>
+                    </div>
                 </main>
                 <footer>
                     <div class="container">
@@ -559,8 +567,42 @@
                         <p class="copy"><xsl:text>&#169;</xsl:text>2026 PICKaMOVIE Entertainment es una marca Literal WD. Todos los derechos reservados<br/><br/><i class="icon-claqueta"></i>  <i class="icon-plus"></i><i class="icon-l-icon"></i></p>
                     </div>
                 </footer>
-                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
+                <script>
+                  // Cargo la función animate() de Motion
+                  const { animate } = Motion;
+
+                  // Selección de los elementos
+                  const loaderContainer = document.getElementById("loader-container");
+                  const claqueta = document.querySelector(".parte-movil");
+
+                  // Iniciamos la animación de la claqeta
+                  const animacionClaqueta = animate(
+                    claqueta,
+                    {
+                      rotate: [-24, 0],
+                      transformOrigin: "bottom left"
+                    },
+                    { duration: .3, ease: "easeInOut" }
+                  );
+
+                  // EventListener a la carga de la página
+                  window.addEventListener("load", async () => {
+
+                  // El contenedor se desvanece
+                  await animate(
+                    loaderContainer,
+                    { opacity: 0 },
+                    { duration: 0.5, ease: "easeIn" }
+                  ).finished;
+
+                  // Paro la animación y elimino el contenedor
+                  animacionClaqueta.stop();
+                  loaderContainer.remove();
+
+                  });
+                </script>
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
                 <script src="../main.js"></script>
             </body>
