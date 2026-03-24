@@ -38,7 +38,7 @@ src/
 │   └── img/            # Favicon, apple-touch-icon, fondo, sprite SVG de iconos
 ├── css/
 │   ├── global.css      # Estilos globales con variables CSS
-│   └── josh-reset.css  # Reset CSS
+│   └── josh-reset.css  # Reset CSS de Josh Comeau
 ├── data/
 │   ├── pickamovie.dtd  # Definición de tipo de documento (validación)
 │   ├── pickamovie.xml  # Base de datos de películas
