@@ -370,6 +370,10 @@ section {
       }
     }
   }
+
+  @media (width <= 830px) {
+    margin-bottom: 0;
+  }
 }
 
 .intro {

@@ -430,10 +430,9 @@
                         <div class="container">
                             <div class="criterio">
                                 <div class="title">
-                                    <h3>Nuestro critrerio (sí, lo tenemos)</h3>
+                                    <h3>Nuestro criterio (sí, lo tenemos)</h3>
                                     <p>
-                                        Reunimos las voces de críticos y espectadores en un mismo espacio, analizamos sus
-                                        opiniones con detalle y te ofrecemos la puntuación de «interés» más fiable del
+                                        Reunimos las voces de críticos y espectadores en un mismo espacio, analizamos sus opiniones con detalle y te ofrecemos la puntuación de «interés» más fiable del
                                         momento.
                                     </p>
                                 </div>
