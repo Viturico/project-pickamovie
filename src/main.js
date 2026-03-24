@@ -120,17 +120,18 @@ avanzar.addEventListener("click", function () {
   }
 });
 
+const mute = document.getElementById("mute");
+
 function toggleMute() {
   if (player.isMuted()) {
     player.unMute();
-    mute.style.color = "var(--color-destacado)";
+    mute.style.color = "color-mix(in srgb, var(--color-destacado) 50%, transparent)";
   } else {
     player.mute();
-    mute.style.color = "red";
+    mute.style.color = "var(--color-destacado)";
+    player.pauseVideo();
   }
 }
-
-const mute = document.getElementById("mute");
 
 mute.addEventListener("click", function () {
   if (player) {
@@ -138,34 +139,49 @@ mute.addEventListener("click", function () {
   }
 });
 
-const exploraTitle = document.getElementById("explora-title");
-let containerPosX = "";
+const pause = document.getElementById("pausa");
 
-let offsetCalculado = exploraTitle ? exploraTitle.getBoundingClientRect().left - 16 : 0;
+function togglePause() {
+  if (player.getPlayerState() === 1) {
+    player.pauseVideo();
+    pause.style.color = "var(--color-destacado)";
+  } else {
+    player.playVideo();
+    pause.style.color = "color-mix(in srgb, var(--color-destacado) 50%, transparent)";
+  }
+}
 
-const swipers = document.querySelectorAll(".swiper:not(.mySwiperCategorias)");
-
-swipers.forEach((swiperEl) => {
-  new Swiper(swiperEl, {
-    slidesPerView: "auto",
-    spaceBetween: 30,
-    slidesOffsetBefore: offsetCalculado,
-    navigation: {
-      nextEl: swiperEl.querySelector(".swiper-button-next"),
-      prevEl: swiperEl.querySelector(".swiper-button-prev"),
-      addIcons: false,
-    },
-    freeMode: {
-      enabled: true,
-      sticky: true,
-    },
-  });
+pause.addEventListener("click", function () {
+  if (player) {
+    togglePause();
+  }
 });
 
-console.log(containerPosX);
-
 document.addEventListener("DOMContentLoaded", () => {
-  // Se inicia el nuevo Swiper de categorías
+  const exploraTitle = document.getElementById("explora-title");
+  let offsetCalculado = exploraTitle ? exploraTitle.getBoundingClientRect().left - 16 : 0;
+
+  const swipers = document.querySelectorAll(".swiper:not(.mySwiperCategorias)");
+
+  // Se inician los Swipers genéricos
+  swipers.forEach((swiperEl) => {
+    new Swiper(swiperEl, {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      slidesOffsetBefore: offsetCalculado,
+      navigation: {
+        nextEl: swiperEl.querySelector(".swiper-button-next"),
+        prevEl: swiperEl.querySelector(".swiper-button-prev"),
+        addIcons: false,
+      },
+      freeMode: {
+        enabled: true,
+        sticky: true,
+      },
+    });
+  });
+
+  // Se inicia el Swiper de categorías
   const swiperCategorias = new Swiper(".mySwiperCategorias", {
     slidesPerView: "auto",
     spaceBetween: 30,
@@ -198,14 +214,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const categoriaSeleccionada = boton.getAttribute("data-cat");
 
       // Se recorren todas las tarjetas de esta sección
+      // Si el atributo data-genre de las películas coincide con el atributo data-cat del botón se muestran, si no, no
       slides.forEach((slide) => {
-        const generoTarjeta = slide.getAttribute("data-genre");
-
-        if (generoTarjeta.includes(categoriaSeleccionada)) {
-          slide.style.display = ""; // Se muestra
-        } else {
-          slide.style.display = "none"; // Se oculta
-        }
+        const generos = slide.getAttribute("data-genre") || "";
+        slide.style.display = generos.includes(categoriaSeleccionada) ? "" : "none";
       });
 
       // Que Swiper que recalcule sus espacios se quitaron/pusieron elementos
