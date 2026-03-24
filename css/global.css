@@ -166,7 +166,7 @@
 /* PERSONALIZACIÓN DE LA BARRA DE DESPLAZAMIENTO (SCROLLBAR) */
 
 ::-webkit-scrollbar {
-  width: 16px; /* Ancho de la barra vertical */
+  width: 14px; /* Ancho de la barra vertical */
 }
 
 ::-webkit-scrollbar-track {
@@ -569,7 +569,7 @@ footer {
   padding: 1.5rem 0;
   color: var(--color-texto-2);
 
-  .container {
+  .container:has(.nosotros) {
     border-top: solid 1px var(--color-fondo-cards);
     border-bottom: solid 1px var(--color-fondo-cards);
     padding: 2.5rem 0;
@@ -718,6 +718,19 @@ footer {
     cursor: pointer;
   }
 
+  #pausa {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    color: color-mix(in srgb, var(--color-destacado) 50%, transparent);
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateX(-50%);
+  }
+
   #retroceder {
     display: block;
     position: fixed;
@@ -735,7 +748,7 @@ footer {
     position: fixed;
     left: 50px;
     top: 10px;
-    color: var(--color-destacado);
+    color: color-mix(in srgb, var(--color-destacado) 50%, transparent);
     font-size: 2rem;
     font-weight: 800;
     padding: 10px;
@@ -777,7 +790,8 @@ footer {
 #close,
 #avanzar,
 #retroceder,
-#mute {
+#mute,
+#pausa {
   display: none;
   border-radius: 10px;
 }

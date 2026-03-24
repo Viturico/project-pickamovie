@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="pickamovie.xslt" type="text/xsl"?>
+<?xml-stylesheet href="pickamovie.xsl" type="text/xsl"?>
 <!DOCTYPE movies SYSTEM "pickamovie.dtd">
 <movies>
     <movie poster="https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg">
@@ -831,6 +831,24 @@
         <duration>136</duration>
         <ytId>RNynG8dMp5w</ytId>
         <rating>6.4</rating>
+    </movie>
+    <movie poster="https://media.themoviedb.org/t/p/original/mo4PUj0SWiX33uQMgxyzE2ZOPBK.jpg">
+        <title>Ghost in the Shell</title>
+        <year>1995</year>
+        <director>Mamoru Oshii</director>
+        <summary>En un futuro cercano, la Sección 9 persigue al misterioso hacker "Puppet Master", descubriendo en el proceso oscuros secretos sobre la evolución de la inteligencia artificial.</summary>
+        <actor>Atsuko Tanaka</actor>
+        <actor>Akio Otsuka</actor>
+        <actor>Koichi Yamadera</actor>
+        <script>Masamune Shirow</script>
+        <script>Kazunori Ito</script>
+        <photo>Hisao Shirai</photo>
+        <music>Kenji Kawai</music>
+        <genre>&ani;</genre>
+        <genre>&sfi;</genre>
+        <duration>82</duration>
+        <ytId>JNDU6V7WU-Y</ytId>
+        <rating>8.6</rating>
     </movie>
     <movie poster="https://image.tmdb.org/t/p/w500/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg">
         <title>Dhurandhar The Revenge</title>

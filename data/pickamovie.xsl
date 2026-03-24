@@ -504,6 +504,11 @@
                                 <use href="../assets/img/icons.svg#rw"></use>
                             </svg>
                         </div>
+                        <div id="pausa" class="open-sans">
+                            <svg>
+                                <use href="../assets/img/icons.svg#pause"></use>
+                            </svg>
+                        </div>
                         <div id="avanzar" class="open-sans">
                             <svg>
                                 <use href="../assets/img/icons.svg#ff"></use>
@@ -549,7 +554,9 @@
                             </div>
                         </div>
                     </div>
-                    <p class="copy"><xsl:text>&#169;</xsl:text>2026 PICKaMOVIE Entertainment es una marca Literal WD. Todos los derechos reservados<br/><br/><i class="icon-claqueta"></i>  <i class="icon-plus"></i><i class="icon-l-icon"></i></p>
+                    <div class="container">
+                        <p class="copy"><xsl:text>&#169;</xsl:text>2026 PICKaMOVIE Entertainment es una marca Literal WD. Todos los derechos reservados<br/><br/><i class="icon-claqueta"></i>  <i class="icon-plus"></i><i class="icon-l-icon"></i></p>
+                    </div>
                 </footer>
                 <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
