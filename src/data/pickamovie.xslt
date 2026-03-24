@@ -7,10 +7,10 @@
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>PICKaMOVIE</title>
-                <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
-                <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
+                <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg" />
+                <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png" />
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-                <link rel="stylesheet" href="/css/global.css" />
+                <link rel="stylesheet" href="../css/global.css" />
 
             </head>
             <body>
