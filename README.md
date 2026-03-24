@@ -109,10 +109,19 @@ src/
 <xsl:value-of select="round(sum(movies/movie/rating) div count(/movies/movie)*100) div 100"/>
 ```
 
-### Porcentaje de películas con nota > 8
+### Filtrado de películas con nota >= 8 + ordenación descendente
 
 ```xml
-<xsl:value-of select="round(count(/movies/movie[rating > 8]) div count(/movies/movie) * 1000) div 10"/>%
+<xsl:for-each select="/movies/movie[rating >= 8]">
+    <xsl:sort select="rating" order="descending" data-type="number" />
+    ...
+</xsl:for-each>
+```
+
+### Porcentaje de películas con nota >= 8
+
+```xml
+<xsl:value-of select="round(count(/movies/movie[rating >= 8]) div count(/movies/movie) * 1000) div 10"/>%
 ```
 
 ### Atributo dinámico para filtrado por género
