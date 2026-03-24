@@ -473,8 +473,8 @@
                                     <span>Películas Analizadas</span>
                                 </div>
                                 <div>
-                                    <numeros-numero><xsl:value-of select="round(count(/movies/movie[rating > 8]) div count(/movies/movie) * 1000) div 10"></xsl:value-of>%</numeros-numero>
-                                    <span>Películas Buenas</span>
+                                    <numeros-numero><xsl:value-of select="round(count(/movies/movie[rating >= 8]) div count(/movies/movie) * 1000) div 10"></xsl:value-of>%</numeros-numero>
+                                    <span>Obras Maestras</span>
                                 </div>
                             </div>
                         </div>
