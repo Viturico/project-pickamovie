@@ -522,7 +522,7 @@
                                 <h5>Explora</h5>
                                 <ul>
                                     <li><a href="#intro">Inicio</a></li>
-                                    <li><a href="#explora">Seleccion</a></li>
+                                    <li><a href="#explora">Selección</a></li>
                                     <li><a href="#generos">Géneros</a></li>
                                 </ul>
                             </nav>
