@@ -1,5 +1,6 @@
 // Cargo la función animate() de Motion
-const { animate } = Motion;
+// const { animate } = Motion;
+// Elimino porque añadí la animacion de carga, animate() se carga en dentro de script en el XSLT
 
 // Incio AOS (fadeIn al hacer scroll)
 AOS.init();
