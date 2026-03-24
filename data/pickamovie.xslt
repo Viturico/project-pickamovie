@@ -132,7 +132,99 @@
                             </div>
                         </div>
                     </section>
+                    <section id="obras-maestras">
+                        <div class="container">
+                            <h3 id="explora-title">Obras maestras (si lo dice él...)</h3>
+                            <p class="subtitle">Las favoritas de nuestro crítico más incorformista.</p>
+                        </div>
+                        <div class="container">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <xsl:for-each select="/movies/movie[rating >= 8]">
+                                        <xsl:sort select="rating" order="descending" data-type="number" />
+                                        <article class="swiper-slide card">
+                                            <nuestra-puntuacion>
+                                                <div class="estrella">
+                                                    <svg>
+                                                        <use href="../assets/img/icons.svg#star"></use>
+                                                    </svg>
+                                                </div>
+                                                <p class="puntuacion"><xsl:value-of select="rating"></xsl:value-of></p>
+                                            </nuestra-puntuacion>
+                                            <div class="poster">
+                                                <img src="{@poster}" alt="{title}" />
+                                            </div>
+                                            <div class="data">
+                                                <div>
+                                                    <h4 class="movie-title"><xsl:value-of select="title"/> (<xsl:value-of select="year"/>)</h4>
+                                                    <p class="truncar"><xsl:value-of select="summary"/></p>
+                                                </div>
+                                                <div class="cast">
+                                                    <div>
+                                                        <h5>Director</h5>
+                                                        <p><span><xsl:value-of select="director"/>.</span></p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Casting</h5>
+                                                        <p>
+                                                            <xsl:for-each select="actor">
+                                                                <xsl:value-of select="."/>
+                                                                <xsl:if test="position() != last()">, </xsl:if>
+                                                                <xsl:if test="position() = last()">.</xsl:if>
+                                                            </xsl:for-each>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Guión</h5>
+                                                        <p>
+                                                            <span>
+                                                                <xsl:for-each select="script">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                    <xsl:if test="position() = last()">.</xsl:if>
+                                                                </xsl:for-each>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Fotografía / Música</h5>
+                                                        <p>
+                                                            <span>
+                                                                <xsl:for-each select="photo">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                </xsl:for-each>
+                                                                /
+                                                                <xsl:for-each select="music">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                </xsl:for-each>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <ver-trailer class="play-trailer" data-video-id="{ytId}"><i class="icon-play"></i><span>Play </span>Trailer</ver-trailer>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </xsl:for-each>
 
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-next">
+                                    <svg>
+                                        <use href="../assets/img/icons.svg#right"></use>
+                                    </svg>
+                                </div>
+                                <div class="swiper-button-prev">
+                                    <svg>
+                                        <use href="../assets/img/icons.svg#left"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section>
                         <div class="container">
                             <h3>Novedades</h3>
@@ -422,7 +514,7 @@
                                 <h2>PICKaMOVIE</h2>
                             </logo-movie>
                             <p>
-                                Descubre tu próxima película favorita con recomendaciones personalizadas, respaldadas por las opiniones más certeras de la crítica especializada.
+                                Descubre tu próxima película favorita, déjate llevar por nuestras puntuaciones, respaldadas por las opiniones más certeras de la crítica especializada.
                             </p>
                         </div>
                         <div class="menu-footer">
