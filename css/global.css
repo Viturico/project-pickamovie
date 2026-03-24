@@ -182,6 +182,7 @@
 @media (width <= 832px) {
   :root {
     --body-font-size: 15px;
+    --poster-height: 100%;
   }
 }
 

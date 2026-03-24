@@ -9,6 +9,7 @@
                 <title>PICKaMOVIE</title>
                 <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg" />
                 <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png" />
+                <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
                 <link rel="stylesheet" href="../css/global.css" />
 
@@ -40,7 +41,7 @@
                             </pick-intro>
                         </div>
                     </section>
-                    <section id="explora">
+                    <section id="explora" data-aos="fade-up">
                         <div class="container">
                             <h3 id="explora-title">El crítico las vio (algunas contra su voluntad)</h3>
                             <p class="subtitle">Muchas le gustaron y otras desearía no haberlas visto.</p>
@@ -135,7 +136,7 @@
                             </div>
                         </div>
                     </section>
-                    <section id="obras-maestras">
+                    <section id="obras-maestras" data-aos="fade-up">
                         <div class="container">
                             <h3 id="explora-title">Obras maestras (si lo dice él...)</h3>
                             <p class="subtitle">Las favoritas de nuestro crítico más incorformista.</p>
@@ -229,7 +230,7 @@
                             </div>
                         </div>
                     </section>
-                    <section id="novedades">
+                    <section id="novedades" data-aos="fade-up">
                         <div class="container">
                             <h3>Novedades</h3>
                             <p class="subtitle">Las úlitmas novedades en cartelera.</p>
@@ -326,7 +327,7 @@
                             </div>
                         </div>
                     </section>
-                    <section id="generos">
+                    <section id="generos" data-aos="fade-up">
                         <div class="container">
                             <h3>Explora por Géneros</h3>
                             <p class="subtitle">Encuentra exactamente lo que te apetece ver hoy.</p>
@@ -558,6 +559,7 @@
                         <p class="copy"><xsl:text>&#169;</xsl:text>2026 PICKaMOVIE Entertainment es una marca Literal WD. Todos los derechos reservados<br/><br/><i class="icon-claqueta"></i>  <i class="icon-plus"></i><i class="icon-l-icon"></i></p>
                     </div>
                 </footer>
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
                 <script src="../main.js"></script>

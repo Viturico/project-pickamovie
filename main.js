@@ -1,6 +1,9 @@
 // Cargo la función animate() de Motion
 const { animate } = Motion;
 
+// Incio AOS (fadeIn al hacer scroll)
+AOS.init();
+
 // Cargar la API de YouTube
 var tag = document.createElement("script");
 tag.src = "https://www.youtube.com/iframe_api";
