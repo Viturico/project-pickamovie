@@ -21,9 +21,9 @@
                         </logo-movie>
                         <nav id="menu" class="menu">
                             <ul>
-                                <li><a href="">Inicio</a></li>
-                                <li><a href="">Selección</a></li>
-                                <li><a href="">Géneros</a></li>
+                                <li><a href="#intro">Inicio</a></li>
+                                <li><a href="#explora">Selección</a></li>
+                                <li><a href="#generos">Géneros</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -34,10 +34,9 @@
                             <pick-intro class="intro">
                                 <h2>Descubre Tu Próxima<br/>Película <span>Favorita</span></h2>
                                 <p>
-                                    Una selección de recomendaciones cinematográficas para todos lo gustos. Desde joyas
-                                    del cine independiente hasta grandes éxitos de taquilla.
+                                    Una selección de recomendaciones cinematográficas para todos lo gustos. Desde joyas del cine independiente hasta grandes éxitos de taquilla.
                                 </p>
-                                <div class="explora-button">Explora</div>
+                                <div class="explora-button"><a href="#explora">Explora</a></div>
                             </pick-intro>
                         </div>
                     </section>
@@ -50,50 +49,84 @@
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
                                     <xsl:for-each select="/movies/movie">
-                                    <article class="swiper-slide card">
-                                        <div class="poster">
-                                            <img src="{@poster}" alt="{title}" />
-                                        </div>
-                                        <div class="data">
-                                            <div>
-                                                <h4 class="movie-title"><xsl:value-of select="title"/> (<xsl:value-of select="year"/>)</h4>
-                                                <p><xsl:value-of select="summary"/></p>
+                                        <article class="swiper-slide card">
+                                            <nuestra-puntuacion>
+                                                <div class="estrella">
+                                                    <svg>
+                                                        <use href="../assets/img/icons.svg#star"></use>
+                                                    </svg>
+                                                </div>
+                                                <p class="puntuacion"><xsl:value-of select="rating"></xsl:value-of></p>
+                                            </nuestra-puntuacion>
+                                            <div class="poster">
+                                                <img src="{@poster}" alt="{title}" />
                                             </div>
-                                            <div class="cast">
+                                            <div class="data">
                                                 <div>
-                                                    <h5>Director</h5>
-                                                    <p><span><xsl:value-of select="director"/>.</span></p>
+                                                    <h4 class="movie-title"><xsl:value-of select="title"/> (<xsl:value-of select="year"/>)</h4>
+                                                    <p class="truncar"><xsl:value-of select="summary"/></p>
+                                                </div>
+                                                <div class="cast">
+                                                    <div>
+                                                        <h5>Director</h5>
+                                                        <p><span><xsl:value-of select="director"/>.</span></p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Casting</h5>
+                                                        <p>
+                                                            <xsl:for-each select="actor">
+                                                                <xsl:value-of select="."/>
+                                                                <xsl:if test="position() != last()">, </xsl:if>
+                                                                <xsl:if test="position() = last()">.</xsl:if>
+                                                            </xsl:for-each>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Guión</h5>
+                                                        <p>
+                                                            <span>
+                                                                <xsl:for-each select="script">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                    <xsl:if test="position() = last()">.</xsl:if>
+                                                                </xsl:for-each>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Fotografía / Música</h5>
+                                                        <p>
+                                                            <span>
+                                                                <xsl:for-each select="photo">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                </xsl:for-each>
+                                                                /
+                                                                <xsl:for-each select="music">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                </xsl:for-each>
+                                                            </span>
+                                                        </p>
+                                                    </div>
                                                 </div>
                                                 <div>
-                                                    <h5>Casting</h5>
-                                                    <p><xsl:for-each select="actor"><xsl:value-of select="."/><xsl:if test="position() != last()">, </xsl:if><xsl:if test="position() = last()">.</xsl:if></xsl:for-each></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Guión</h5>
-                                                    <p><span><xsl:for-each select="script"><xsl:value-of select="."/><xsl:if test="position() != last()">, </xsl:if><xsl:if test="position() = last()">.</xsl:if></xsl:for-each></span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Fotografía / Música</h5>
-                                                    <p><span><xsl:for-each select="photo"><xsl:value-of select="."/><xsl:if test="position() != last()">, </xsl:if><xsl:if test="position() = last()">.</xsl:if></xsl:for-each> / <xsl:for-each select="music"><xsl:value-of select="."/><xsl:if test="position() != last()">, </xsl:if><xsl:if test="position() = last()">.</xsl:if></xsl:for-each></span></p>
+                                                    <ver-trailer class="play-trailer" data-video-id="{ytId}"><i class="icon-play"></i><span>Play </span>Trailer</ver-trailer>
                                                 </div>
                                             </div>
-                                            <div>
-                                                <ver-trailer class="play-trailer" data-video-id="{ytId}"><i class="icon-play"></i><span>Play </span>Trailer</ver-trailer>
-                                            </div>
-                                        </div>
-                                    </article>
+                                        </article>
                                     </xsl:for-each>
 
                                 </div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.383 0.2796 10.35 20">
-                                        <path d="M.383 20.0762c.2712.2712.7108.2712.982 0l9.0691-9.0692c.4018-.4017.4018-1.0531 0-1.4549L1.365.483C1.0938.2118.6541.2118.383.483Z" fill="#cfffe2"/>
+                                    <svg>
+                                        <use href="../assets/img/icons.svg#right"></use>
                                     </svg>
                                 </div>
                                 <div class="swiper-button-prev">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10.7355 -20.2796 10.35 20">
-                                        <path d="M-.383-20.0762c-.2712-.2712-.7108-.2712-.982 0l-9.0691 9.0692c-.4018.4017-.4018 1.0531 0 1.4549L-1.365-.483C-1.0938-.2118-.6541-.2118-.383-.483Z" fill="#cfffe2"/>
+                                    <svg>
+                                        <use href="../assets/img/icons.svg#left"></use>
                                     </svg>
                                 </div>
                             </div>
@@ -108,188 +141,195 @@
                         <div class="container">
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                    <article class="swiper-slide card">
-                                        <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
-                                        <div class="data">
-                                            <div>
-                                                <h4>Marty Supreme (2025)</h4>
-                                                <p>
-                                                    Ambientada en la década de 1950, esta película biográfica narra la vida
-                                                    excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
-                                                    estadounidense.
-                                                </p>
-                                            </div>
-                                            <div class="cast">
-                                                <div>
-                                                    <h5>Director</h5>
-                                                    <p><span>Josh Safdie</span></p>
+                                    <xsl:for-each select="/movies/movie">
+                                        <xsl:sort select="year" order="descending" data-type="number"/>
+                                        <xsl:if test="position() &lt;= 10">
+                                            <article class="swiper-slide card">
+                                                <nuestra-puntuacion>
+                                                    <div class="estrella">
+                                                        <svg>
+                                                            <use href="../assets/img/icons.svg#star"></use>
+                                                        </svg>
+                                                    </div>
+                                                    <p class="puntuacion"><xsl:value-of select="rating"></xsl:value-of></p>
+                                                </nuestra-puntuacion>
+                                                <div class="poster">
+                                                    <img src="{@poster}" alt="{title}" />
                                                 </div>
-                                                <div>
-                                                    <h5>Casting</h5>
-                                                    <p><span>Timothée Chalamet</span></p>
+                                                <div class="data">
+                                                    <div>
+                                                        <h4 class="movie-title"><xsl:value-of select="title"/> (<xsl:value-of select="year"/>)</h4>
+                                                        <p class="truncar"><xsl:value-of select="summary"/></p>
+                                                    </div>
+                                                    <div class="cast">
+                                                        <div>
+                                                            <h5>Director</h5>
+                                                            <p><span><xsl:value-of select="director"/>.</span></p>
+                                                        </div>
+                                                        <div>
+                                                            <h5>Casting</h5>
+                                                            <p>
+                                                                <xsl:for-each select="actor">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                    <xsl:if test="position() = last()">.</xsl:if>
+                                                                </xsl:for-each>
+                                                            </p>
+                                                        </div>
+                                                        <div>
+                                                            <h5>Guión</h5>
+                                                            <p>
+                                                                <span>
+                                                                    <xsl:for-each select="script">
+                                                                        <xsl:value-of select="."/>
+                                                                        <xsl:if test="position() != last()">, </xsl:if>
+                                                                        <xsl:if test="position() = last()">.</xsl:if>
+                                                                    </xsl:for-each>
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <div>
+                                                            <h5>Fotografía / Música</h5>
+                                                            <p>
+                                                                <span>
+                                                                    <xsl:for-each select="photo">
+                                                                        <xsl:value-of select="."/>
+                                                                        <xsl:if test="position() != last()">, </xsl:if>
+                                                                    </xsl:for-each>
+                                                                    /
+                                                                    <xsl:for-each select="music">
+                                                                        <xsl:value-of select="."/>
+                                                                        <xsl:if test="position() != last()">, </xsl:if>
+                                                                    </xsl:for-each>
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <ver-trailer class="play-trailer" data-video-id="{ytId}"><i class="icon-play"></i><span>Play </span>Trailer</ver-trailer>
+                                                    </div>
                                                 </div>
-                                                <div>
-                                                    <h5>Guión</h5>
-                                                    <p><span>Ronald Bronstein</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Fotografía / Música</h5>
-                                                    <p><span>Darius Khondji / TBC</span></p>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="swiper-slide card">
-                                        <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
-                                        <div class="data">
-                                            <div>
-                                                <h4>Marty Supreme (2025)</h4>
-                                                <p>
-                                                    Ambientada en la década de 1950, esta película biográfica narra la vida
-                                                    excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
-                                                    estadounidense.
-                                                </p>
-                                            </div>
-                                            <div class="cast">
-                                                <div>
-                                                    <h5>Director</h5>
-                                                    <p><span>Josh Safdie</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Casting</h5>
-                                                    <p><span>Timothée Chalamet</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Guión</h5>
-                                                    <p><span>Ronald Bronstein</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Fotografía / Música</h5>
-                                                    <p><span>Darius Khondji / TBC</span></p>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="swiper-slide card">
-                                        <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
-                                        <div class="data">
-                                            <div>
-                                                <h4>Marty Supreme (2025)</h4>
-                                                <p>
-                                                    Ambientada en la década de 1950, esta película biográfica narra la vida
-                                                    excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
-                                                    estadounidense.
-                                                </p>
-                                            </div>
-                                            <div class="cast">
-                                                <div>
-                                                    <h5>Director</h5>
-                                                    <p><span>Josh Safdie</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Casting</h5>
-                                                    <p><span>Timothée Chalamet</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Guión</h5>
-                                                    <p><span>Ronald Bronstein</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Fotografía / Música</h5>
-                                                    <p><span>Darius Khondji / TBC</span></p>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="swiper-slide card">
-                                        <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
-                                        <div class="data">
-                                            <div>
-                                                <h4>Marty Supreme (2025)</h4>
-                                                <p>
-                                                    Ambientada en la década de 1950, esta película biográfica narra la vida
-                                                    excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
-                                                    estadounidense.
-                                                </p>
-                                            </div>
-                                            <div class="cast">
-                                                <div>
-                                                    <h5>Director</h5>
-                                                    <p><span>Josh Safdie</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Casting</h5>
-                                                    <p><span>Timothée Chalamet</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Guión</h5>
-                                                    <p><span>Ronald Bronstein</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Fotografía / Música</h5>
-                                                    <p><span>Darius Khondji / TBC</span></p>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <article class="swiper-slide card">
-                                        <div class="poster"><img src="https://placeholder.pics/svg/320x520" alt="" /></div>
-                                        <div class="data">
-                                            <div>
-                                                <h4>Marty Supreme (2025)</h4>
-                                                <p>
-                                                    Ambientada en la década de 1950, esta película biográfica narra la vida
-                                                    excéntrica y turbulenta de Marty Reisman, una leyenda del tenis de mesa
-                                                    estadounidense.
-                                                </p>
-                                            </div>
-                                            <div class="cast">
-                                                <div>
-                                                    <h5>Director</h5>
-                                                    <p><span>Josh Safdie</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Casting</h5>
-                                                    <p><span>Timothée Chalamet</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Guión</h5>
-                                                    <p><span>Ronald Bronstein</span></p>
-                                                </div>
-                                                <div>
-                                                    <h5>Fotografía / Música</h5>
-                                                    <p><span>Darius Khondji / TBC</span></p>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <ver-trailer> <span>Play</span><a href="#">Trailer</a> </ver-trailer>
-                                            </div>
-                                        </div>
-                                    </article>
+                                            </article>
+                                        </xsl:if>
+                                    </xsl:for-each>
+
                                 </div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.383 0.2796 10.35 20">
-                                        <path d="M.383 20.0762c.2712.2712.7108.2712.982 0l9.0691-9.0692c.4018-.4017.4018-1.0531 0-1.4549L1.365.483C1.0938.2118.6541.2118.383.483Z" fill="#cfffe2"/>
+                                    <svg>
+                                        <use href="../assets/img/icons.svg#right"></use>
                                     </svg>
                                 </div>
                                 <div class="swiper-button-prev">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10.7355 -20.2796 10.35 20">
-                                        <path d="M-.383-20.0762c-.2712-.2712-.7108-.2712-.982 0l-9.0691 9.0692c-.4018.4017-.4018 1.0531 0 1.4549L-1.365-.483C-1.0938-.2118-.6541-.2118-.383-.483Z" fill="#cfffe2"/>
+                                    <svg>
+                                        <use href="../assets/img/icons.svg#left"></use>
                                     </svg>
                                 </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="generos">
+                        <div class="container">
+                            <h3>Explora por Géneros</h3>
+                            <p class="subtitle">Encuentra exactamente lo que te apetece ver hoy.</p>
+
+                            <div class="filtros-container" style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+                                <button class="btn-filtro" data-cat="Acción">Acción</button>
+                                <button class="btn-filtro" data-cat="Comedia">Comedia</button>
+                                <button class="btn-filtro" data-cat="Drama">Drama</button>
+                                <button class="btn-filtro" data-cat="Terror">Terror</button>
+                                <button class="btn-filtro" data-cat="Ciencia Ficción">Ciencia Ficción</button>
+                                <button class="btn-filtro" data-cat="Romance">Romance</button>
+                                <button class="btn-filtro activo" data-cat="Animación">Animación</button>
+                                <button class="btn-filtro" data-cat="Suspense">Suspense</button>
+                                <button class="btn-filtro" data-cat="Bélica">Bélica</button>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="swiper mySwiperCategorias">
+                                <div class="swiper-wrapper">
+
+                                    <xsl:for-each select="/movies/movie">
+                                        <article class="swiper-slide card" data-genre="{genre}">
+                                            <xsl:attribute name="data-genre">
+                                                <xsl:for-each select="genre">
+                                                    <xsl:value-of select="."/>
+                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                </xsl:for-each>
+                                            </xsl:attribute>
+
+                                            <nuestra-puntuacion>
+                                                <div class="estrella">
+                                                    <svg><use href="../assets/img/icons.svg#star"></use></svg>
+                                                </div>
+                                                <p class="puntuacion"><xsl:value-of select="rating"></xsl:value-of></p>
+                                            </nuestra-puntuacion>
+
+                                            <div class="poster">
+                                                <img src="{@poster}" alt="{title}" />
+                                            </div>
+                                            <div class="data">
+                                                <div>
+                                                    <h4 class="movie-title"><xsl:value-of select="title"/> (<xsl:value-of select="year"/>)</h4>
+                                                    <p class="truncar"><xsl:value-of select="summary"/></p>
+                                                </div>
+                                                <div class="cast">
+                                                    <div>
+                                                        <h5>Director</h5>
+                                                        <p><span><xsl:value-of select="director"/>.</span></p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Casting</h5>
+                                                        <p>
+                                                            <xsl:for-each select="actor">
+                                                                <xsl:value-of select="."/>
+                                                                <xsl:if test="position() != last()">, </xsl:if>
+                                                                <xsl:if test="position() = last()">.</xsl:if>
+                                                            </xsl:for-each>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Guión</h5>
+                                                        <p>
+                                                            <span>
+                                                                <xsl:for-each select="script">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                    <xsl:if test="position() = last()">.</xsl:if>
+                                                                </xsl:for-each>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <h5>Fotografía / Música</h5>
+                                                        <p>
+                                                            <span>
+                                                                <xsl:for-each select="photo">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                </xsl:for-each>
+                                                                /
+                                                                <xsl:for-each select="music">
+                                                                    <xsl:value-of select="."/>
+                                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                                </xsl:for-each>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <ver-trailer class="play-trailer" data-video-id="{ytId}"><i class="icon-play"></i><span>Play </span>Trailer</ver-trailer>
+                                                </div>
+                                            </div>
+
+                                        </article>
+                                    </xsl:for-each>
+
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-next"><svg><use href="../assets/img/icons.svg#right"></use></svg></div>
+                                <div class="swiper-button-prev"><svg><use href="../assets/img/icons.svg#left"></use></svg></div>
                             </div>
                         </div>
                     </section>
@@ -307,26 +347,41 @@
                                 </div>
                                 <div>
                                     <media-critica>
-                                        <h5>Puntuacion media (Críticos)<span>94%</span></h5>
+                                        <h5>Puntuacion media (Críticos)
+                                            <span>
+                                                <xsl:value-of select="round(sum(movies/movie/rating) div count(/movies/movie)*100) div 100"></xsl:value-of>
+                                                <xsl:text> </xsl:text>
+                                                <svg>
+                                                    <use href="../assets/img/icons.svg#star"></use>
+                                                </svg>
+                                            </span>
+                                        </h5>
                                         <div class="bar-container">
-                                            <div class="bar-relleno"></div>
+                                            <div class="bar-relleno" style="width:{round(sum(movies/movie/rating) div count(/movies/movie)*100) div 10}%"></div>
                                         </div>
                                     </media-critica>
                                     <media-audiencia>
-                                        <h5>Puntuacion media (Mortales)<span>70%</span></h5>
+                                        <h5>Puntuacion media (Mortales)
+                                            <span>
+                                                9.5
+                                                <svg>
+                                                    <use href="../assets/img/icons.svg#star"></use>
+                                                </svg>
+                                            </span>
+                                        </h5>
                                         <div class="bar-container">
-                                            <div class="bar-relleno"></div>
+                                            <div class="bar-relleno" style="width:95%;"></div>
                                         </div>
                                     </media-audiencia>
                                 </div>
                             </div>
                             <div class="numeros">
                                 <div>
-                                    <numeros-numero>12</numeros-numero>
+                                    <numeros-numero><xsl:value-of select="count(/movies/movie)"></xsl:value-of></numeros-numero>
                                     <span>Películas Analizadas</span>
                                 </div>
                                 <div>
-                                    <numeros-numero>95%</numeros-numero>
+                                    <numeros-numero><xsl:value-of select="round(count(/movies/movie[rating > 8]) div count(/movies/movie) * 1000) div 10"></xsl:value-of>%</numeros-numero>
                                     <span>Películas Buenas</span>
                                 </div>
                             </div>
@@ -334,9 +389,26 @@
                     </section>
                     <div id="container-video">
                         <div id="video"></div>
-                        <div id="close" class="open-sans" onclick="volver()"><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="var(--color-destacado)"><path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="var(--color-destacado)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-                        <div id="retroceder" class="open-sans"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="var(--color-destacado)" stroke-width="1.5"><path d="M21.0441 5.70436C21.4402 5.41246 22 5.69531 22 6.1874V17.8126C22 18.3047 21.4402 18.5875 21.0441 18.2956L13.1555 12.483C12.8301 12.2432 12.8301 11.7568 13.1555 11.517L21.0441 5.70436Z" fill="var(--color-destacado)" stroke="var(--color-destacado)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.0441 5.70436C10.4402 5.41246 11 5.69531 11 6.1874V17.8126C11 18.3047 10.4402 18.5875 10.0441 18.2956L2.15555 12.483C1.8301 12.2432 1.8301 11.7568 2.15555 11.517L10.0441 5.70436Z" fill="var(--color-destacado)" stroke="var(--color-destacado)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-                        <div id="avanzar" class="open-sans"><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="var(--color-destacado)" stroke-width="1.5"><path d="M2.95592 5.70436C2.55976 5.41246 2 5.69531 2 6.1874V17.8126C2 18.3047 2.55976 18.5875 2.95592 18.2956L10.8445 12.483C11.1699 12.2432 11.1699 11.7568 10.8445 11.517L2.95592 5.70436Z" fill="var(--color-destacado)" stroke="var(--color-destacado)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13.9559 5.70436C13.5598 5.41246 13 5.69531 13 6.1874V17.8126C13 18.3047 13.5598 18.5875 13.9559 18.2956L21.8445 12.483C22.1699 12.2432 22.1699 11.7568 21.8445 11.517L13.9559 5.70436Z" fill="var(--color-destacado)" stroke="var(--color-destacado)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                        <div id="close" class="open-sans" onclick="volver()">
+                            <svg>
+                                <use href="../assets/img/icons.svg#close"></use>
+                            </svg>
+                        </div>
+                        <div id="retroceder" class="open-sans">
+                            <svg>
+                                <use href="../assets/img/icons.svg#rw"></use>
+                            </svg>
+                        </div>
+                        <div id="avanzar" class="open-sans">
+                            <svg>
+                                <use href="../assets/img/icons.svg#ff"></use>
+                            </svg>
+                        </div>
+                        <div id="mute" class="open-sans">
+                            <svg>
+                                <use href="../assets/img/icons.svg#mute"></use>
+                            </svg>
+                        </div>
                         <div id="mi-linea-tiempo">
                             <div id="mi-progreso"></div>
                         </div>
@@ -350,30 +422,29 @@
                                 <h2>PICKaMOVIE</h2>
                             </logo-movie>
                             <p>
-                                Descubre tu próxima película favorita con recomendaciones personalizadas, respaldadas
-                                por las opiniones más certeras de la crítica especializada.
+                                Descubre tu próxima película favorita con recomendaciones personalizadas, respaldadas por las opiniones más certeras de la crítica especializada.
                             </p>
                         </div>
                         <div class="menu-footer">
                             <nav id="menu-footer">
                                 <h5>Explora</h5>
                                 <ul>
-                                    <li><a href="">Inicio</a></li>
-                                    <li><a href="">Seleccion</a></li>
-                                    <li><a href="">Géneros</a></li>
+                                    <li><a href="#intro">Inicio</a></li>
+                                    <li><a href="#explora">Seleccion</a></li>
+                                    <li><a href="#generos">Géneros</a></li>
                                 </ul>
                             </nav>
                         </div>
                         <div class="conecta">
                             <h5>Conecta</h5>
                             <div class="social">
-                                <a href="#"><i class="icon-instagram"></i></a>
-                                <a href="#"><i class="icon-github-circled"></i></a>
+                                <a href="https://www.instagram.com/imdb/"><i class="icon-instagram"></i></a>
+                                <a href="https://github.com/Viturico/project-pickamovie"><i class="icon-github-circled"></i></a>
                                 <a href="#"><i class="icon-mail"></i></a>
                             </div>
                         </div>
                     </div>
-                    <p class="copy"><xsl:text>&#169;</xsl:text>2026 PICKaMOVIE Entertainment es una marca Literal WD. Todos los derechos reservados<br/><i class="icon-claqueta"></i> <i class="icon-plus"></i><i class="icon-l-icon"></i></p>
+                    <p class="copy"><xsl:text>&#169;</xsl:text>2026 PICKaMOVIE Entertainment es una marca Literal WD. Todos los derechos reservados<br/><br/><i class="icon-claqueta"></i>  <i class="icon-plus"></i><i class="icon-l-icon"></i></p>
                 </footer>
                 <script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
