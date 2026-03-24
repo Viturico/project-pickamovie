@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
       slides.forEach((slide) => {
         const generoTarjeta = slide.getAttribute("data-genre");
 
-        if (generoTarjeta === categoriaSeleccionada) {
+        if (generoTarjeta.includes(categoriaSeleccionada)) {
           slide.style.display = ""; // Se muestra
         } else {
           slide.style.display = "none"; // Se oculta

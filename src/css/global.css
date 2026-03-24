@@ -231,6 +231,7 @@ logo-movie {
 a {
   text-decoration: none;
   color: inherit;
+  transition: all 0.2s;
 }
 
 .container {
@@ -381,7 +382,7 @@ section {
 
   h2 {
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 
     span {
       color: var(--color-destacado);
@@ -426,8 +427,8 @@ section {
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 30px;
-    top: 10px;
+    right: 40px;
+    bottom: 40px;
     padding: 6px 14px;
     background-color: var(--color-destacado-20);
     border-radius: 22px;
@@ -450,6 +451,10 @@ section {
         height: 1.1rem;
         width: 1.1rem;
       }
+    }
+
+    @media (width <= 500px) {
+      right: 30px;
     }
   }
 
@@ -489,6 +494,10 @@ section {
       background: var(--color-destacado);
       color: var(--color-fondo);
       cursor: pointer;
+
+      @media (width <= 500px) {
+        padding: 0.8rem 1.5rem;
+      }
     }
   }
   .poster {
@@ -508,6 +517,7 @@ section {
     width: 100%;
     align-items: center;
     justify-content: stretch;
+    height: 100%;
 
     .data {
       width: 100%;
@@ -629,7 +639,6 @@ footer {
     align-items: center;
     background-color: var(--color-fondo-cards);
     border-radius: 30px;
-
     line-height: 1;
     padding: 0;
     margin: 0;
@@ -640,6 +649,7 @@ footer {
   i::before {
     margin-top: 0.1em;
     margin-left: 0.25em;
+    transition: all 0.2s;
   }
 }
 
@@ -792,4 +802,10 @@ footer {
     cursor: pointer;
     padding: 0.5rem;
   }
+}
+
+.menu a:hover,
+footer a:hover,
+footer a:hover i {
+  color: var(--color-destacado);
 }

@@ -216,6 +216,24 @@
         <ytId>0pdqf4P9MB8</ytId>
         <rating>7.5</rating>
     </movie>
+    <movie poster="https://www.themoviedb.org/t/p/w500/9jbxvKB937BWeYAmMKZTqPxBLsk.jpg">
+        <title>The End of Evangelion</title>
+        <year>1997</year>
+        <director>Hideaki Anno</director>
+        <director>Kazuya Tsurumaki</director>
+        <summary>Seele ordena un ataque sin cuartel contra NERV con el objetivo de destruir los Evas antes de que Gendo pueda provocar el Tercer Impacto y la unión de las almas humanas.</summary>
+        <actor>Megumi Ogata</actor>
+        <actor>Megumi Hayashibara</actor>
+        <actor>Yuko Miyamura</actor>
+        <script>Hideaki Anno</script>
+        <photo>Hisao Shirai</photo>
+        <music>Shiro Sagisu</music>
+        <genre>&ani;</genre>
+        <genre>&sfi;</genre>
+        <duration>90</duration>
+        <ytId>COgmoqEruRQ</ytId>
+        <rating>9.4</rating>
+    </movie>
     <movie poster="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg">
         <title>Interstellar</title>
         <year>2014</year>
@@ -510,6 +528,23 @@
         <duration>139</duration>
         <ytId>TAfd8SaG4T8</ytId>
         <rating>5.5</rating>
+    </movie>
+    <movie poster="https://www.themoviedb.org/t/p/w600_and_h900_face/fJdnp5OO2wh07tdy6noACNyaqMJ.jpg">
+        <title>Chainsaw Man: Reze Arc</title>
+        <year>2025</year>
+        <director>Tatsuya Yoshihara</director>
+        <summary>Tras ser traicionado por la yakuza y resucitado por su perro-demonio Pochita como Chainsaw Man, Denji se ve envuelto en una guerra brutal donde la misteriosa Reze irrumpe en su vida. Ahora, el joven debe sobrevivir a su enfrentamiento más letal, impulsado por un amor peligroso en un mundo donde no existen reglas.</summary>
+        <actor>Kikunosuke Toya</actor>
+        <actor>Reina Ueda</actor>
+        <actor>omori Kusunoki</actor>
+        <script>Tatsuki Fujimoto</script>
+        <photo>Teppei Ito</photo>
+        <music>Kensuke Ushio</music>
+        <genre>&sfi;</genre>
+        <genre>&ani;</genre>
+        <duration>100</duration>
+        <ytId>-KpVet_60Yc</ytId>
+        <rating>8.3</rating>
     </movie>
     <movie poster="https://image.tmdb.org/t/p/w500/i7hEUpDuMN2LOrCEifFyGSHZQSY.jpg">
         <title>Batman y Robin</title>

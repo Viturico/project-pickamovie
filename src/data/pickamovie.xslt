@@ -23,7 +23,7 @@
                             <ul>
                                 <li><a href="#intro">Inicio</a></li>
                                 <li><a href="#explora">Selección</a></li>
-                                <li><a href="#seccion-generos">Géneros</a></li>
+                                <li><a href="#generos">Géneros</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -34,8 +34,7 @@
                             <pick-intro class="intro">
                                 <h2>Descubre Tu Próxima<br/>Película <span>Favorita</span></h2>
                                 <p>
-                                    Una selección de recomendaciones cinematográficas para todos lo gustos. Desde joyas
-                                    del cine independiente hasta grandes éxitos de taquilla.
+                                    Una selección de recomendaciones cinematográficas para todos lo gustos. Desde joyas del cine independiente hasta grandes éxitos de taquilla.
                                 </p>
                                 <div class="explora-button"><a href="#explora">Explora</a></div>
                             </pick-intro>
@@ -229,7 +228,7 @@
                             </div>
                         </div>
                     </section>
-                    <section id="seccion-generos">
+                    <section id="generos">
                         <div class="container">
                             <h3>Explora por Géneros</h3>
                             <p class="subtitle">Encuentra exactamente lo que te apetece ver hoy.</p>
@@ -253,6 +252,12 @@
 
                                     <xsl:for-each select="/movies/movie">
                                         <article class="swiper-slide card" data-genre="{genre}">
+                                            <xsl:attribute name="data-genre">
+                                                <xsl:for-each select="genre">
+                                                    <xsl:value-of select="."/>
+                                                    <xsl:if test="position() != last()">, </xsl:if>
+                                                </xsl:for-each>
+                                            </xsl:attribute>
 
                                             <nuestra-puntuacion>
                                                 <div class="estrella">
@@ -417,25 +422,24 @@
                                 <h2>PICKaMOVIE</h2>
                             </logo-movie>
                             <p>
-                                Descubre tu próxima película favorita con recomendaciones personalizadas, respaldadas
-                                por las opiniones más certeras de la crítica especializada.
+                                Descubre tu próxima película favorita con recomendaciones personalizadas, respaldadas por las opiniones más certeras de la crítica especializada.
                             </p>
                         </div>
                         <div class="menu-footer">
                             <nav id="menu-footer">
                                 <h5>Explora</h5>
                                 <ul>
-                                    <li><a href="">Inicio</a></li>
-                                    <li><a href="">Seleccion</a></li>
-                                    <li><a href="">Géneros</a></li>
+                                    <li><a href="#intro">Inicio</a></li>
+                                    <li><a href="#explora">Seleccion</a></li>
+                                    <li><a href="#generos">Géneros</a></li>
                                 </ul>
                             </nav>
                         </div>
                         <div class="conecta">
                             <h5>Conecta</h5>
                             <div class="social">
-                                <a href="#"><i class="icon-instagram"></i></a>
-                                <a href="#"><i class="icon-github-circled"></i></a>
+                                <a href="https://www.instagram.com/imdb/"><i class="icon-instagram"></i></a>
+                                <a href="https://github.com/Viturico/project-pickamovie"><i class="icon-github-circled"></i></a>
                                 <a href="#"><i class="icon-mail"></i></a>
                             </div>
                         </div>
