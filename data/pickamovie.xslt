@@ -42,16 +42,18 @@
                     </section>
                     <section id="explora">
                         <div class="container">
-                            <h3 id="explora-title">El crítico recomienda (y no es fácil)</h3>
-                            <p class="subtitle">Resulta que hay películas que le gustan.</p>
+                            <h3 id="explora-title">El crítico las vio (algunas contra su voluntad)</h3>
+                            <p class="subtitle">Muchas le gustaron y otras desearía no haberlas visto.</p>
                         </div>
                         <div class="container">
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
+                                    <!-- Selección de todas las películas -->
                                     <xsl:for-each select="/movies/movie">
                                         <article class="swiper-slide card">
                                             <nuestra-puntuacion>
                                                 <div class="estrella">
+                                                    <!-- De esta forma cargo un símbolo svg -->
                                                     <svg>
                                                         <use href="../assets/img/icons.svg#star"></use>
                                                     </svg>
@@ -59,6 +61,7 @@
                                                 <p class="puntuacion"><xsl:value-of select="rating"></xsl:value-of></p>
                                             </nuestra-puntuacion>
                                             <div class="poster">
+                                                <!-- De esta forma se llama a un atributo XML '@' y a un elemento desde un atributo HTML -->
                                                 <img src="{@poster}" alt="{title}" />
                                             </div>
                                             <div class="data">
@@ -140,6 +143,7 @@
                         <div class="container">
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
+                                    <!-- Selección de las películas con una puntuación >= 8 + orden descendente -->
                                     <xsl:for-each select="/movies/movie[rating >= 8]">
                                         <xsl:sort select="rating" order="descending" data-type="number" />
                                         <article class="swiper-slide card">
@@ -169,6 +173,7 @@
                                                         <p>
                                                             <xsl:for-each select="actor">
                                                                 <xsl:value-of select="."/>
+                                                                <!-- Condicionales if para colocar , ó . -->
                                                                 <xsl:if test="position() != last()">, </xsl:if>
                                                                 <xsl:if test="position() = last()">.</xsl:if>
                                                             </xsl:for-each>
@@ -209,7 +214,6 @@
                                             </div>
                                         </article>
                                     </xsl:for-each>
-
                                 </div>
                                 <div class="swiper-pagination"></div>
                                 <div class="swiper-button-next">
@@ -225,7 +229,7 @@
                             </div>
                         </div>
                     </section>
-                    <section>
+                    <section id="novedades">
                         <div class="container">
                             <h3>Novedades</h3>
                             <p class="subtitle">Las úlitmas novedades en cartelera.</p>
@@ -233,9 +237,10 @@
                         <div class="container">
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
+                                    <!-- Selección de las 15 últimas películas mas recientes -->
                                     <xsl:for-each select="/movies/movie">
                                         <xsl:sort select="year" order="descending" data-type="number"/>
-                                        <xsl:if test="position() &lt;= 10">
+                                        <xsl:if test="position() &lt;= 15">
                                             <article class="swiper-slide card">
                                                 <nuestra-puntuacion>
                                                     <div class="estrella">
@@ -298,6 +303,7 @@
                                                         </div>
                                                     </div>
                                                     <div>
+                                                        <!-- De esta forma se llama a un elemento desde un atributo HTML -->
                                                         <ver-trailer class="play-trailer" data-video-id="{ytId}"><i class="icon-play"></i><span>Play </span>Trailer</ver-trailer>
                                                     </div>
                                                 </div>
@@ -440,6 +446,7 @@
                                     <media-critica>
                                         <h5>Puntuacion media (Críticos)
                                             <span>
+                                                <!-- Redondeo a 2 decimales -->
                                                 <xsl:value-of select="round(sum(movies/movie/rating) div count(/movies/movie)*100) div 100"></xsl:value-of>
                                                 <xsl:text> </xsl:text>
                                                 <svg>
@@ -448,6 +455,7 @@
                                             </span>
                                         </h5>
                                         <div class="bar-container">
+                                            <!-- Redondeo a un decimal para el relleno de la barra -->
                                             <div class="bar-relleno" style="width:{round(sum(movies/movie/rating) div count(/movies/movie)*100) div 10}%"></div>
                                         </div>
                                     </media-critica>
@@ -468,11 +476,17 @@
                             </div>
                             <div class="numeros">
                                 <div>
-                                    <numeros-numero><xsl:value-of select="count(/movies/movie)"></xsl:value-of></numeros-numero>
+                                    <numeros-numero>
+                                        <!-- De esta forma se cuentan los elementos -->
+                                        <xsl:value-of select="count(/movies/movie)"></xsl:value-of>
+                                    </numeros-numero>
                                     <span>Películas Analizadas</span>
                                 </div>
                                 <div>
-                                    <numeros-numero><xsl:value-of select="round(count(/movies/movie[rating >= 8]) div count(/movies/movie) * 1000) div 10"></xsl:value-of>%</numeros-numero>
+                                    <numeros-numero>
+                                        <!-- De esta forma redondeo a un decimal -->
+                                        <xsl:value-of select="round(count(/movies/movie[rating >= 8]) div count(/movies/movie) * 1000) div 10"></xsl:value-of>%
+                                    </numeros-numero>
                                     <span>Obras Maestras</span>
                                 </div>
                             </div>
